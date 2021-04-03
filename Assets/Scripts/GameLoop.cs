@@ -24,13 +24,19 @@ namespace FDaaGF
             // TODO: Get player names from networked players
             gameState = new GameState(new string[] { "Rob", "Mat", "BenC", "BenL" });
 
+            // TODO: Randomise the resources required
+            gameState.ResourceRequirements.Add(ResourceType.Gold);
+            gameState.ResourceRequirements.Add(ResourceType.Fish);
+            gameState.ResourceRequirements.Add(ResourceType.Wheat);
+            gameState.ResourceRequirements.Add(ResourceType.Meat);
+            gameState.ResourceRequirements.Add(ResourceType.Wheat);
+            gameState.ResourceRequirements.Add(ResourceType.Gold);
+            gameState.ResourceRequirements.Add(ResourceType.Meat);
+            gameState.ResourceRequirements.Add(ResourceType.Fish);
+
             // Set up game loop commands
             TurnCommands.Add(new IncrementTurn());
             TurnCommands.Add(new EnterOffering(OfferingPanel));
-
-            // Run first command
-            currentTurnCommand = 0;
-            ExecuteTurnCommand(currentTurnCommand);
         }
 
         void Update()
@@ -38,7 +44,7 @@ namespace FDaaGF
             // Control the commands only on the server
             if (!isServer) return;
 
-            if (TurnCommands[currentTurnCommand].Completed)
+            if (currentTurnCommand == -1 || TurnCommands[currentTurnCommand].Completed)
             {
                 // If current command has completed, move to next command
                 currentTurnCommand++;
@@ -56,10 +62,7 @@ namespace FDaaGF
         // Runs a command at the given index
         private void ExecuteTurnCommand(int index)
         {
-            if (TurnCommands.Count > index)
-            {
-                TurnCommands[index].Execute(gameState);
-            }
+            TurnCommands[index].Execute(gameState);
         }
     }
 }

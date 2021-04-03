@@ -32,14 +32,13 @@ namespace FDaaGF
             gameState = currentGameState;
 
             // Show the panel and wait for user input
-            offeringPanel.RpcShow();
+            offeringPanel.RpcShow(currentGameState.ResourceRequirements[currentGameState.Turn - 1]);
         }
 
         // Called on offeringPanel.OnOfferingConfirmed
         private void HandleOfferingConfirmed(int value)
         {
             // Hide the panel and flag this command has completed
-            Debug.LogFormat("Offering made: {0}", value);
             offeringPanel.RpcHide();
             Completed = true;
         }

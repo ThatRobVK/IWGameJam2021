@@ -13,20 +13,22 @@ namespace FDaaGF.UI
 
         // Editor fields
         public InputField OfferingInputField;
+        public Text ResourceText;
 
 
-        // Called when the Confirm button is clicked
+        // Called when the Confirm button is clicked - runs on the client the event happens on
         public void HandleConfirmButtonClick()
         {
             // Parse the entered value, if valid int raise event to let watchers know of input
             int offeringValue = 0;
             if (int.TryParse(OfferingInputField.text, out offeringValue))
             {
+                // Get the server to notify listeners
                 CmdRaiseOfferingConfirmed(offeringValue);
             }
         }
 
-        // Clears and hides the panel
+        // Clears and hides the panel - called on all clients
         [ClientRpc]
         public void RpcHide()
         {
@@ -34,17 +36,18 @@ namespace FDaaGF.UI
             OfferingInputField.text = string.Empty;
         }
 
-        // Shows the panel
+        // Shows the panel - called on all clients
         [ClientRpc]
-        public void RpcShow()
+        public void RpcShow(ResourceType resourceType)
         {
             gameObject.SetActive(true);
+            ResourceText.text = resourceType.ToString();
         }
 
+        // Notify listeners that an offering has been sent - called on the server, can be called by any client
         [Command(requiresAuthority = false)]
         private void CmdRaiseOfferingConfirmed(int offeringValue, NetworkConnectionToClient sender = null)
         {
-            Debug.LogFormat("Sender: {0} - Value {1}", sender.identity.netId, offeringValue);
             OnOfferingConfirmed?.Invoke(offeringValue);
         }
     }
