@@ -18,6 +18,7 @@ namespace FDaaGF
         {
             ResourceRequirements = new List<ResourceType>();
 
+            // Add all players to the list
             Players = new List<Player>();
             foreach (string playerName in playerNames)
             {

@@ -13,15 +13,20 @@ namespace FDaaGF
         private int currentTurnCommand = -1;
         private GameState gameState;
 
+
+        // Editor fields
         public OfferingPanel OfferingPanel;
+
 
         void Start()
         {
             // Init state
+            // TODO: Get player names from networked players
             gameState = new GameState(new string[] { "Rob", "Mat", "BenC", "BenL" });
 
-            TurnCommands.Add(new EnterOffering(OfferingPanel));
+            // Set up game loop commands
             TurnCommands.Add(new IncrementTurn());
+            TurnCommands.Add(new EnterOffering(OfferingPanel));
 
             // Run first command
             currentTurnCommand = 0;
@@ -32,11 +37,10 @@ namespace FDaaGF
         {
             if (TurnCommands[currentTurnCommand].Completed)
             {
-                // If completed, move to next command
+                // If current command has completed, move to next command
                 currentTurnCommand++;
                 if (currentTurnCommand >= TurnCommands.Count)
                 {
-                    Debug.Log(gameState.Turn);
                     // If at end of list, return to start
                     currentTurnCommand = 0;
                 }

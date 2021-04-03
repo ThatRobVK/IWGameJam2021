@@ -5,32 +5,43 @@ namespace FDaaGF
 {
     public class EnterOffering : IGameCommand
     {
+        // True when this command has completed and the game loop can continue to the next command
         public bool Completed { get; private set; }
+
 
         private GameState gameState;
         private OfferingPanel offeringPanel;
 
+
+        // Constructor
+        public EnterOffering(OfferingPanel panel)
+        {
+            // Hook up event and hide UI panel
+            this.offeringPanel = panel;
+            offeringPanel.OnOfferingConfirmed += HandleOfferingConfirmed;
+            offeringPanel.Hide();
+        }
+
+
+        // Starts the command
         public void Execute(GameState currentGameState)
         {
+            // Not completed until user gives input
             Completed = false;
 
             gameState = currentGameState;
 
+            // Show the panel and wait for user input
             offeringPanel.Show();
         }
 
+        // Called on offeringPanel.OnOfferingConfirmed
         private void HandleOfferingConfirmed(int value)
         {
+            // Hide the panel and flag this command has completed
             Debug.LogFormat("Offering made: {0}", value);
             offeringPanel.Hide();
             Completed = true;
-        }
-
-        public EnterOffering(OfferingPanel panel)
-        {
-            this.offeringPanel = panel;
-            offeringPanel.OnOfferingConfirmed += HandleOfferingConfirmed;
-            offeringPanel.Hide();
         }
     }
 }
