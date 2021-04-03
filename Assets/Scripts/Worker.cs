@@ -4,6 +4,6 @@ namespace FDaaGF
     public class Worker
     {
         // The resource this worker is currently gathering
-        public ResourceType WorkPlacement { get; set; }
+        public ResourceType WorkPlacement = ResourceType.Gold;
     }
 }

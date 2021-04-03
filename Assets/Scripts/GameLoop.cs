@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Mirror;
 using FDaaGF.UI;
 using FDaaGF.TurnCommands;
+using UnityEngine;
 
 namespace FDaaGF
 {
@@ -11,19 +12,17 @@ namespace FDaaGF
         private List<IGameCommand> TurnCommands = new List<IGameCommand>();
 
         private int currentTurnCommand = -1;
-        private GameState gameState;
 
 
         // Editor fields
-        public OfferingPanel OfferingPanel;
+        [SerializeField]
+        private OfferingPanel offeringPanel;
+        [SerializeField]
+        private GameState gameState;
 
 
         void Start()
         {
-            // Init state
-            // TODO: Get player names from networked players
-            gameState = new GameState(new string[] { "Rob", "Mat", "BenC", "BenL" });
-
             // TODO: Randomise the resources required
             gameState.ResourceRequirements.Add(ResourceType.Gold);
             gameState.ResourceRequirements.Add(ResourceType.Fish);
@@ -36,7 +35,7 @@ namespace FDaaGF
 
             // Set up game loop commands
             TurnCommands.Add(new IncrementTurn());
-            TurnCommands.Add(new EnterOffering(OfferingPanel));
+            TurnCommands.Add(new EnterOffering(offeringPanel));
         }
 
         void Update()

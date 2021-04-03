@@ -1,29 +1,19 @@
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace FDaaGF
 {
     // Data class representing the overall state of the current game
-    public class GameState
+    [CreateAssetMenu(fileName = "GameState", menuName = "ScriptableObjects/GameState", order = 1)]
+    public class GameState : ScriptableObject
     {
         // The current game turn
-        public int Turn { get; set; }
+        public int Turn = 0;
 
         // The resources required for each turn        
-        public List<ResourceType> ResourceRequirements { get; private set; }
+        public List<ResourceType> ResourceRequirements = new List<ResourceType>();
 
         // All players in the current game
-        public List<Player> Players { get; private set; }
-
-        public GameState(string[] playerNames)
-        {
-            ResourceRequirements = new List<ResourceType>();
-
-            // Add all players to the list
-            Players = new List<Player>();
-            foreach (string playerName in playerNames)
-            {
-                Players.Add(new Player(playerName));
-            }
-        }
+        public List<Player> Players = new List<Player>();
     }
 }
