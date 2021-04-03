@@ -19,7 +19,7 @@ namespace FDaaGF
             // Hook up event and hide UI panel
             this.offeringPanel = panel;
             offeringPanel.OnOfferingConfirmed += HandleOfferingConfirmed;
-            offeringPanel.Hide();
+            offeringPanel.RpcHide();
         }
 
 
@@ -32,7 +32,7 @@ namespace FDaaGF
             gameState = currentGameState;
 
             // Show the panel and wait for user input
-            offeringPanel.Show();
+            offeringPanel.RpcShow();
         }
 
         // Called on offeringPanel.OnOfferingConfirmed
@@ -40,7 +40,7 @@ namespace FDaaGF
         {
             // Hide the panel and flag this command has completed
             Debug.LogFormat("Offering made: {0}", value);
-            offeringPanel.Hide();
+            offeringPanel.RpcHide();
             Completed = true;
         }
     }

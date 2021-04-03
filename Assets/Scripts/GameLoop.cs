@@ -1,11 +1,11 @@
 using System.Collections.Generic;
-using UnityEngine;
+using Mirror;
 using FDaaGF.UI;
 using FDaaGF.TurnCommands;
 
 namespace FDaaGF
 {
-    public class GameLoop : MonoBehaviour
+    public class GameLoop : NetworkBehaviour
     {
         // Commands executed in order during player turns - once the last one has executed, a turn ends
         private List<IGameCommand> TurnCommands = new List<IGameCommand>();
@@ -35,6 +35,9 @@ namespace FDaaGF
 
         void Update()
         {
+            // Control the commands only on the server
+            if (!isServer) return;
+
             if (TurnCommands[currentTurnCommand].Completed)
             {
                 // If current command has completed, move to next command
