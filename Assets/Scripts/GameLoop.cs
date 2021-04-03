@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using FDaaGF.UI;
 using FDaaGF.TurnCommands;
 
 namespace FDaaGF
@@ -12,11 +13,14 @@ namespace FDaaGF
         private int currentTurnCommand = -1;
         private GameState gameState;
 
+        public OfferingPanel OfferingPanel;
+
         void Start()
         {
             // Init state
             gameState = new GameState(new string[] { "Rob", "Mat", "BenC", "BenL" });
 
+            TurnCommands.Add(new EnterOffering(OfferingPanel));
             TurnCommands.Add(new IncrementTurn());
 
             // Run first command
