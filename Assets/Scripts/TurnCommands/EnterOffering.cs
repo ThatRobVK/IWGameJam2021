@@ -32,11 +32,16 @@ namespace FDaaGF
 
             gameState = currentGameState;
 
-            // Reset all players' offers
-            gameState.Players.ForEach(x => x.CurrentOffer = -1);
+            var currentResource = currentGameState.ResourceRequirements[currentGameState.Turn - 1];
 
-            // Show the panel and wait for user input
-            offeringPanel.RpcShow(currentGameState.ResourceRequirements[currentGameState.Turn - 1]);
+            // Reset all players and tell them how much of the current resource they have
+            foreach (var player in gameState.Players)
+            {
+                player.CurrentOffer = -1;
+
+                var resourceAmount = player.Resources[currentResource];
+                offeringPanel.RpcShow(player.Connection, currentResource, resourceAmount);
+            }
         }
 
         // Called on offeringPanel.OnOfferingConfirmed
@@ -46,16 +51,20 @@ namespace FDaaGF
             offeringPanel.RpcHide(client);
 
 
+            // If no players left with no offer made, process everything
             if (gameState.Players.Where(x => x.CurrentOffer == -1).Count() == 0)
             {
-                // If no players left with no offer made, hide panel and set completed.
-                Completed = true;
+                // Decrease everyone's resource amount
+                foreach (var player in gameState.Players)
+                {
+                    player.Resources[gameState.ResourceRequirements[gameState.Turn - 1]] -= player.CurrentOffer;
+                }
 
-                var offersText = "Offers made:\n";
-                gameState.Players.ForEach(x => offersText = string.Format("{0}{1} offered {2} {3}\n", offersText, x.Name, x.CurrentOffer, gameState.ResourceRequirements[gameState.Turn - 1]));
-                Debug.Log(offersText);
-
+                // Tell all clients to hide the offer panel
                 offeringPanel.RpcHideAll();
+
+                // Flag we're completed for the game loop
+                Completed = true;
             }
         }
     }

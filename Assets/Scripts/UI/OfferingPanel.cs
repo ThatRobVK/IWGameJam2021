@@ -21,6 +21,8 @@ namespace FDaaGF.UI
         [SerializeField]
         private Text resourceText;
 
+        private int maxOffer = -1;
+
 
         // Called when the Confirm button is clicked - runs on the client the event happens on
         public void HandleConfirmButtonClick()
@@ -29,8 +31,15 @@ namespace FDaaGF.UI
             int offeringValue = 0;
             if (int.TryParse(offeringInputField.text, out offeringValue))
             {
-                // Get the server to notify listeners
-                CmdRaiseOfferingConfirmed(offeringValue);
+                if (offeringValue >= 0 && offeringValue <= maxOffer)
+                {
+                    // Get the server to notify listeners
+                    CmdRaiseOfferingConfirmed(offeringValue);
+                }
+                else
+                {
+                    Debug.Log("Invalid offer");
+                }
             }
         }
 
@@ -53,13 +62,14 @@ namespace FDaaGF.UI
         }
 
         // Shows the panel - called on all clients
-        [ClientRpc]
-        public void RpcShow(ResourceType resourceType)
+        [TargetRpc]
+        public void RpcShow(NetworkConnection target, ResourceType resourceType, int maxOffer)
         {
             gameObject.SetActive(true);
             InputPanel.SetActive(true);
             WaitPanel.SetActive(false);
             resourceText.text = resourceType.ToString();
+            this.maxOffer = maxOffer;
         }
 
         // Notify listeners that an offering has been sent - called on the server, can be called by any client

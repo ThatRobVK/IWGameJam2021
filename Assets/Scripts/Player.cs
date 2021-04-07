@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using UnityEngine;
+using Mirror;
 
 namespace FDaaGF
 {
@@ -10,6 +10,8 @@ namespace FDaaGF
         public string Name = string.Empty;
         public int ConnectionId = -1;
         public int CurrentOffer = -1;
+        public int Position = 0;
+        public NetworkConnection Connection;
 
         // Resource quantities owned by this player
         public Dictionary<ResourceType, int> Resources = new Dictionary<ResourceType, int>();
@@ -17,15 +19,16 @@ namespace FDaaGF
         // Workers employed by the player
         public List<Worker> Workers = new List<Worker>();
 
-        public Player(int connectionId, string name)
+        public Player(NetworkConnection connection, string name)
         {
-            ConnectionId = connectionId;
+            Connection = connection;
+            ConnectionId = connection.connectionId;
             Name = name;
 
-            Resources.Add(ResourceType.Gold, 0);
-            Resources.Add(ResourceType.Wheat, 0);
-            Resources.Add(ResourceType.Fish, 0);
-            Resources.Add(ResourceType.Meat, 0);
+            Resources.Add(ResourceType.Gold, 5);
+            Resources.Add(ResourceType.Wheat, 10);
+            Resources.Add(ResourceType.Fish, 15);
+            Resources.Add(ResourceType.Meat, 20);
         }
     }
 }

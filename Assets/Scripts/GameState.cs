@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 
 namespace FDaaGF
 {
@@ -8,12 +9,13 @@ namespace FDaaGF
     public class GameState : ScriptableObject
     {
         // The current game turn
+        [SyncVar]
         public int Turn = 0;
 
         // The resources required for each turn        
-        public List<ResourceType> ResourceRequirements = new List<ResourceType>();
+        public SyncList<ResourceType> ResourceRequirements = new SyncList<ResourceType>();
 
         // All players in the current game
-        public List<Player> Players = new List<Player>();
+        public SyncList<Player> Players = new SyncList<Player>();
     }
 }

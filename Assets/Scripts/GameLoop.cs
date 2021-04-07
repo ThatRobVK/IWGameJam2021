@@ -18,11 +18,17 @@ namespace FDaaGF
         [SerializeField]
         private OfferingPanel offeringPanel;
         [SerializeField]
+        private RoundWinnerPanel roundWinnerPanel;
+        [SerializeField]
         private GameState gameState;
 
 
-        void Start()
+        public override void OnStartServer()
         {
+            base.OnStartServer();
+
+            gameState.Turn = 1;
+
             // TODO: Randomise the resources required
             gameState.ResourceRequirements.Add(ResourceType.Gold);
             gameState.ResourceRequirements.Add(ResourceType.Fish);
@@ -34,8 +40,10 @@ namespace FDaaGF
             gameState.ResourceRequirements.Add(ResourceType.Fish);
 
             // Set up game loop commands
-            TurnCommands.Add(new IncrementTurn());
             TurnCommands.Add(new EnterOffering(offeringPanel));
+            TurnCommands.Add(new DecideWinner(roundWinnerPanel));
+            TurnCommands.Add(new IncrementTurn());
+
         }
 
         void Update()
