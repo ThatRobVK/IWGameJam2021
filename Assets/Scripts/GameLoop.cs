@@ -29,21 +29,16 @@ namespace FDaaGF
 
             gameState.Turn = 1;
 
-            // TODO: Randomise the resources required
-            gameState.ResourceRequirements.Add(ResourceType.Gold);
-            gameState.ResourceRequirements.Add(ResourceType.Fish);
-            gameState.ResourceRequirements.Add(ResourceType.Wheat);
-            gameState.ResourceRequirements.Add(ResourceType.Meat);
-            gameState.ResourceRequirements.Add(ResourceType.Wheat);
-            gameState.ResourceRequirements.Add(ResourceType.Gold);
-            gameState.ResourceRequirements.Add(ResourceType.Meat);
-            gameState.ResourceRequirements.Add(ResourceType.Fish);
+            // Add resource requirements at random
+            for (int i = 0; i < 20; i++)
+            {
+                gameState.ResourceRequirements.Add((ResourceType)Random.Range(0, 3));
+            }
 
             // Set up game loop commands
             TurnCommands.Add(new EnterOffering(offeringPanel));
             TurnCommands.Add(new DecideWinner(roundWinnerPanel));
             TurnCommands.Add(new IncrementTurn());
-
         }
 
         void Update()

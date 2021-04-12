@@ -22,7 +22,14 @@ namespace FDaaGF.UI
         private Text resourceText;
 
         private int maxOffer = -1;
+        private CanvasGroup canvasGroup;
 
+
+        void Awake()
+        {
+            canvasGroup = GetComponent<CanvasGroup>();
+            ShowHideCanvasGroup(false);
+        }
 
         // Called when the Confirm button is clicked - runs on the client the event happens on
         public void HandleConfirmButtonClick()
@@ -55,9 +62,12 @@ namespace FDaaGF.UI
         [ClientRpc]
         public void RpcHideAll()
         {
+            Debug.Log("OfferingPanel.RpcHideAll");
             InputPanel.SetActive(true);
             WaitPanel.SetActive(false);
-            gameObject.SetActive(false);
+
+            ShowHideCanvasGroup(false);
+
             offeringInputField.text = string.Empty;
         }
 
@@ -65,7 +75,8 @@ namespace FDaaGF.UI
         [TargetRpc]
         public void RpcShow(NetworkConnection target, ResourceType resourceType, int maxOffer)
         {
-            gameObject.SetActive(true);
+            ShowHideCanvasGroup(true);
+
             InputPanel.SetActive(true);
             WaitPanel.SetActive(false);
             resourceText.text = resourceType.ToString();
@@ -77,6 +88,16 @@ namespace FDaaGF.UI
         private void CmdRaiseOfferingConfirmed(int offeringValue, NetworkConnectionToClient sender = null)
         {
             OnOfferingConfirmed?.Invoke(sender, offeringValue);
+        }
+
+        private void ShowHideCanvasGroup(bool show)
+        {
+            if (canvasGroup != null)
+            {
+                canvasGroup.alpha = (show) ? 1 : 0;
+                canvasGroup.blocksRaycasts = show;
+                canvasGroup.interactable = show;
+            }
         }
     }
 }

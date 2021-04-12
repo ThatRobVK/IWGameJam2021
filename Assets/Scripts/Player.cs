@@ -11,7 +11,7 @@ namespace FDaaGF
         public int ConnectionId = -1;
         public int CurrentOffer = -1;
         public int Position = 0;
-        public NetworkConnection Connection;
+        public NetworkConnectionToClient Connection;
 
         // Resource quantities owned by this player
         public Dictionary<ResourceType, int> Resources = new Dictionary<ResourceType, int>();
@@ -19,7 +19,7 @@ namespace FDaaGF
         // Workers employed by the player
         public List<Worker> Workers = new List<Worker>();
 
-        public Player(NetworkConnection connection, string name)
+        public Player(NetworkConnectionToClient connection, string name)
         {
             Connection = connection;
             ConnectionId = connection.connectionId;

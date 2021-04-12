@@ -45,6 +45,7 @@ namespace FDaaGF.UI.Room
         [Command(requiresAuthority = false)]
         private void CmdRegisterUser(NetworkConnectionToClient sender = null)
         {
+            Debug.LogFormat("Registering Player {0}", sender.connectionId);
             var newPlayer = new Player(sender, string.Format("Player {0}", sender.connectionId));
 
             gameState.Players.Add(newPlayer);

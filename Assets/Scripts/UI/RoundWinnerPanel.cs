@@ -21,46 +21,69 @@ namespace FDaaGF.UI
         private Text loserNameText;
 
 
-        void Start()
+        private CanvasGroup canvasGroup;
+
+
+        void Awake()
         {
-            // Hide on load
-            gameObject.SetActive(false);
+            canvasGroup = GetComponent<CanvasGroup>();
+            ShowHideCanvasGroup(false);
         }
+
 
         public void Hide()
         {
             RpcHide();
         }
 
+        [Server]
+        public void ShowPanels(List<Player> playersOrdered)
+        {
+            // Poke fun at the losers
+            for (int i = 1; i < playersOrdered.Count; i++)
+            {
+                Debug.LogFormat("Telling {0} to display the loser panel", playersOrdered[i].Name);
+                RpcShowLoserPanel(playersOrdered[i].Connection, playersOrdered[0].Name);
+            }
+
+            // Show the winners
+            // Congratulate the winner
+            RpcShowWinnerPanel(playersOrdered[0].Connection, playersOrdered[0].Name);
+        }
+
         [TargetRpc]
         public void RpcShowWinnerPanel(NetworkConnection target, string winnerName)
         {
             Debug.Log("Winner panel");
-            gameObject.SetActive(true);
+            ShowHideCanvasGroup(true);
 
             winnerPanel.SetActive(true);
             loserPanel.SetActive(false);
             winnerNameText.text = winnerName;
 
             // Wait for a few seconds and then tell the game to move on
-            StartCoroutine(CompleteOnTimer());
+            if (isServer) StartCoroutine(CompleteOnTimer());
         }
 
         [TargetRpc]
         public void RpcShowLoserPanel(NetworkConnection target, string winnerName)
         {
             Debug.Log("Loser panel");
-            gameObject.SetActive(true);
+            ShowHideCanvasGroup(true);
 
             winnerPanel.SetActive(false);
             loserPanel.SetActive(true);
             loserNameText.text = winnerName;
+
+            // Wait for a few seconds and then tell the game to move on
+            if (isServer) StartCoroutine(CompleteOnTimer());
         }
 
         [ClientRpc]
-        private void RpcHide()
+        public void RpcHide()
         {
-            gameObject.SetActive(false);
+            Debug.Log("Hiding");
+            ShowHideCanvasGroup(false);
         }
 
         IEnumerator CompleteOnTimer()
@@ -69,5 +92,13 @@ namespace FDaaGF.UI
 
             OnTimerCompleted?.Invoke();
         }
+
+        private void ShowHideCanvasGroup(bool show)
+        {
+            canvasGroup.alpha = (show) ? 1 : 0;
+            canvasGroup.blocksRaycasts = show;
+            canvasGroup.interactable = show;
+        }
+
     }
 }
