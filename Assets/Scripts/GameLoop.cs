@@ -20,6 +20,8 @@ namespace FDaaGF
         [SerializeField]
         private RoundWinnerPanel roundWinnerPanel;
         [SerializeField]
+        private WorkerPlacementPanel workerPlacementPanel;
+        [SerializeField]
         private GameState gameState;
 
 
@@ -38,6 +40,8 @@ namespace FDaaGF
             // Set up game loop commands
             TurnCommands.Add(new EnterOffering(offeringPanel));
             TurnCommands.Add(new DecideWinner(roundWinnerPanel));
+            TurnCommands.Add(new GetResources());
+            TurnCommands.Add(new WorkerPlacement(workerPlacementPanel));
             TurnCommands.Add(new IncrementTurn());
         }
 

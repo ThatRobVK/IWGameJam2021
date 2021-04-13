@@ -5,5 +5,7 @@ namespace FDaaGF
     {
         // The resource this worker is currently gathering
         public ResourceType WorkPlacement = ResourceType.Gold;
+
+        public bool Recruiting = false;
     }
 }

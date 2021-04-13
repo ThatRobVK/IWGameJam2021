@@ -8,6 +8,7 @@ namespace FDaaGF
     {
         // Player name as entered on connection
         public string Name = string.Empty;
+        public bool WorkerPlacementUpdated = true;
         public int ConnectionId = -1;
         public int CurrentOffer = -1;
         public int Position = 0;
@@ -25,10 +26,17 @@ namespace FDaaGF
             ConnectionId = connection.connectionId;
             Name = name;
 
-            Resources.Add(ResourceType.Gold, 5);
+            // Starting resources
+            Resources.Add(ResourceType.Gold, 10);
             Resources.Add(ResourceType.Wheat, 10);
-            Resources.Add(ResourceType.Fish, 15);
-            Resources.Add(ResourceType.Meat, 20);
+            Resources.Add(ResourceType.Fish, 10);
+            Resources.Add(ResourceType.Meat, 10);
+
+            // Starting workers
+            Workers.Add(new Worker { WorkPlacement = ResourceType.Gold });
+            Workers.Add(new Worker { WorkPlacement = ResourceType.Wheat });
+            Workers.Add(new Worker { WorkPlacement = ResourceType.Fish });
+            Workers.Add(new Worker { WorkPlacement = ResourceType.Meat });
         }
     }
 }
