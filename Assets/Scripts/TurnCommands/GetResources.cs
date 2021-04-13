@@ -1,4 +1,4 @@
-using UnityEngine;
+using System.Linq;
 
 namespace FDaaGF.TurnCommands
 {
@@ -13,16 +13,28 @@ namespace FDaaGF.TurnCommands
         {
             Completed = false;
 
-            // Increment resources for each worker
             foreach (var player in currentGameState.Players)
             {
-                Debug.Log("Incrementing for player " + player.Name);
+                int recruiting = 0;
+
                 foreach (var worker in player.Workers)
                 {
-                    Debug.LogFormat("Incrementing {0} - current value {1}", worker.WorkPlacement.ToString(), player.Resources[worker.WorkPlacement]);
-                    player.Resources[worker.WorkPlacement]++;
-                    Debug.LogFormat("New value: {0}", player.Resources[worker.WorkPlacement]);
+                    if (!worker.Recruiting)
+                    {
+                        // Increment resource for the worker
+                        player.Resources[worker.WorkPlacement]++;
+                    }
+                    else
+                    {
+                        // Count recruiters
+                        recruiting++;
+                    }
+                }
 
+                for (int i = 0; i < recruiting; i++)
+                {
+                    // Increment workers if recruiting
+                    player.Workers.Add(new Worker());
                 }
             }
 

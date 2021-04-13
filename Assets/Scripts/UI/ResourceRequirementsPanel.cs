@@ -26,17 +26,12 @@ public class ResourceRequirementsPanel : NetworkBehaviour
 
     void Start()
     {
-        // Working around a weird bug where on different size windows the panels disappear
-        GetComponent<RectTransform>().anchoredPosition = new Vector2(0, -87.5f);
-
         if (isServer)
         {
             // On the server, set the syncvars
             currentTurn = gameState.Turn;
             currentResource = (int)gameState.ResourceRequirements[currentTurn - 1];
             nextResource = (int)gameState.ResourceRequirements[currentTurn];
-
-            Debug.LogFormat("Server START set vars turn {0}, current {1}, next {2}", currentTurn, currentResource, nextResource);
         }
     }
 
@@ -49,8 +44,6 @@ public class ResourceRequirementsPanel : NetworkBehaviour
             currentTurn = gameState.Turn;
             currentResource = ((currentTurn - 1 < gameState.ResourceRequirements.Count)) ? (int)gameState.ResourceRequirements[currentTurn - 1] : 0;
             nextResource = ((currentTurn < gameState.ResourceRequirements.Count)) ? (int)gameState.ResourceRequirements[currentTurn] : 0;
-
-            Debug.LogFormat("Server UPDATE set vars turn {0}, current {1}, next {2}", currentTurn, currentResource, nextResource);
         }
 
         // Update the images

@@ -62,7 +62,6 @@ namespace FDaaGF.UI
         [ClientRpc]
         public void RpcHideAll()
         {
-            Debug.Log("OfferingPanel.RpcHideAll");
             InputPanel.SetActive(true);
             WaitPanel.SetActive(false);
 

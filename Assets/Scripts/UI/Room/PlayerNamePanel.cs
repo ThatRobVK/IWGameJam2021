@@ -35,17 +35,13 @@ namespace FDaaGF.UI.Room
         [Command(requiresAuthority = false)]
         private void CmdSetUsername(string name, NetworkConnectionToClient sender = null)
         {
-            Debug.LogFormat("Setting name for connid {0} to {1}", sender.connectionId, name);
             // Set the name on the object where the connection id matches
             gameState.Players.Where(x => x.ConnectionId == sender.connectionId).First().Name = name;
-
-            Debug.LogFormat("Name set: {0}", gameState.Players.Where(x => x.ConnectionId == sender.connectionId).First().Name);
         }
 
         [Command(requiresAuthority = false)]
         private void CmdRegisterUser(NetworkConnectionToClient sender = null)
         {
-            Debug.LogFormat("Registering Player {0}", sender.connectionId);
             var newPlayer = new Player(sender, string.Format("Player {0}", sender.connectionId));
 
             gameState.Players.Add(newPlayer);

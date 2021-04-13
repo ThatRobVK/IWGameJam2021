@@ -54,7 +54,6 @@ namespace FDaaGF.UI
         [TargetRpc]
         public void RpcShowWinnerPanel(NetworkConnection target, string winnerName)
         {
-            Debug.Log("Winner panel");
             ShowHideCanvasGroup(true);
 
             winnerPanel.SetActive(true);
@@ -68,7 +67,6 @@ namespace FDaaGF.UI
         [TargetRpc]
         public void RpcShowLoserPanel(NetworkConnection target, string winnerName)
         {
-            Debug.Log("Loser panel");
             ShowHideCanvasGroup(true);
 
             winnerPanel.SetActive(false);
@@ -82,7 +80,6 @@ namespace FDaaGF.UI
         [ClientRpc]
         public void RpcHide()
         {
-            Debug.Log("Hiding");
             ShowHideCanvasGroup(false);
         }
 

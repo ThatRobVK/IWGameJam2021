@@ -25,6 +25,8 @@ namespace FDaaGF
         private GameWinnerPanel gameWinnerPanel;
         [SerializeField]
         private GameState gameState;
+        [SerializeField]
+        private GameUI gameUI;
 
 
         public override void OnStartServer()
@@ -42,11 +44,11 @@ namespace FDaaGF
             }
 
             // Set up game loop commands
+            TurnCommands.Add(new WorkerPlacement(workerPlacementPanel));
             TurnCommands.Add(new EnterOffering(offeringPanel));
             TurnCommands.Add(new DecideWinner(roundWinnerPanel));
             TurnCommands.Add(new OverallWinner(gameWinnerPanel));
             TurnCommands.Add(new GetResources());
-            TurnCommands.Add(new WorkerPlacement(workerPlacementPanel));
             TurnCommands.Add(new IncrementTurn());
         }
 
@@ -64,6 +66,9 @@ namespace FDaaGF
                     // If at end of list, return to start
                     currentTurnCommand = 0;
                 }
+
+                // Tell the UI to update
+                gameUI.UpdateUI(gameState);
 
                 // Run next command
                 ExecuteTurnCommand(currentTurnCommand);

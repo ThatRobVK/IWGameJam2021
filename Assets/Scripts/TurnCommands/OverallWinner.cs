@@ -22,10 +22,12 @@ namespace FDaaGF.TurnCommands
             var winner = currentGameState.Players.Where(x => x.Position == currentGameState.WinPosition).FirstOrDefault();
             if (winner != null)
             {
+                // Someone has won, show the panel and don't flag completed
                 gameWinnerPanel.RpcShow(winner.Name);
             }
             else
             {
+                // No winner, complete this command
                 Completed = true;
             }
         }
