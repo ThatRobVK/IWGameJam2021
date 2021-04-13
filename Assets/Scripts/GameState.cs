@@ -8,6 +8,8 @@ namespace FDaaGF
     [CreateAssetMenu(fileName = "GameState", menuName = "ScriptableObjects/GameState", order = 1)]
     public class GameState : ScriptableObject
     {
+        public int WinPosition = 6;
+
         // The current game turn
         [SyncVar]
         public int Turn = 0;

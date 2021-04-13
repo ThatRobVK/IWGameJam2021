@@ -22,6 +22,8 @@ namespace FDaaGF
         [SerializeField]
         private WorkerPlacementPanel workerPlacementPanel;
         [SerializeField]
+        private GameWinnerPanel gameWinnerPanel;
+        [SerializeField]
         private GameState gameState;
 
 
@@ -31,8 +33,10 @@ namespace FDaaGF
 
             gameState.Turn = 1;
 
+            var maxRounds = gameState.Players.Count * (gameState.WinPosition - 1) + 1;
+
             // Add resource requirements at random
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < maxRounds; i++)
             {
                 gameState.ResourceRequirements.Add((ResourceType)Random.Range(0, 3));
             }
@@ -40,6 +44,7 @@ namespace FDaaGF
             // Set up game loop commands
             TurnCommands.Add(new EnterOffering(offeringPanel));
             TurnCommands.Add(new DecideWinner(roundWinnerPanel));
+            TurnCommands.Add(new OverallWinner(gameWinnerPanel));
             TurnCommands.Add(new GetResources());
             TurnCommands.Add(new WorkerPlacement(workerPlacementPanel));
             TurnCommands.Add(new IncrementTurn());
