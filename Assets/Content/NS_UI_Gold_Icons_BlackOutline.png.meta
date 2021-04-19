@@ -1,0 +1,7136 @@
+fileFormatVersion: 2
+guid: 5b8f14e2acd05b7cf9573fb9ca5767cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6961188219380400471
+    second: NS_UI_Gold_Icons_BlackOutline_0
+  - first:
+      213: 4783167845694484524
+    second: NS_UI_Gold_Icons_BlackOutline_1
+  - first:
+      213: -5386136640155339118
+    second: NS_UI_Gold_Icons_BlackOutline_2
+  - first:
+      213: -1468279622289136128
+    second: NS_UI_Gold_Icons_BlackOutline_3
+  - first:
+      213: 7632485797866726731
+    second: NS_UI_Gold_Icons_BlackOutline_4
+  - first:
+      213: -3945889661502698301
+    second: NS_UI_Gold_Icons_BlackOutline_5
+  - first:
+      213: -4085629160453197086
+    second: NS_UI_Gold_Icons_BlackOutline_6
+  - first:
+      213: 3173785562993508635
+    second: NS_UI_Gold_Icons_BlackOutline_7
+  - first:
+      213: 1644586553219084226
+    second: NS_UI_Gold_Icons_BlackOutline_8
+  - first:
+      213: 5229809170796617587
+    second: NS_UI_Gold_Icons_BlackOutline_9
+  - first:
+      213: 2734036697974841837
+    second: NS_UI_Gold_Icons_BlackOutline_10
+  - first:
+      213: -3004090742740460490
+    second: NS_UI_Gold_Icons_BlackOutline_11
+  - first:
+      213: 1673204469933030596
+    second: NS_UI_Gold_Icons_BlackOutline_12
+  - first:
+      213: 3570634788256382651
+    second: NS_UI_Gold_Icons_BlackOutline_13
+  - first:
+      213: 3797014065986872723
+    second: NS_UI_Gold_Icons_BlackOutline_14
+  - first:
+      213: -2693112783088655933
+    second: NS_UI_Gold_Icons_BlackOutline_15
+  - first:
+      213: -7190502736084398849
+    second: NS_UI_Gold_Icons_BlackOutline_16
+  - first:
+      213: 1093657254643331427
+    second: NS_UI_Gold_Icons_BlackOutline_17
+  - first:
+      213: -1676076927874216203
+    second: NS_UI_Gold_Icons_BlackOutline_18
+  - first:
+      213: 4211085853147571757
+    second: NS_UI_Gold_Icons_BlackOutline_19
+  - first:
+      213: 3554710192862761772
+    second: NS_UI_Gold_Icons_BlackOutline_20
+  - first:
+      213: 5409673370385280412
+    second: NS_UI_Gold_Icons_BlackOutline_21
+  - first:
+      213: 5690025507397878566
+    second: NS_UI_Gold_Icons_BlackOutline_22
+  - first:
+      213: 5868090546321129609
+    second: NS_UI_Gold_Icons_BlackOutline_23
+  - first:
+      213: -3078321424392328956
+    second: NS_UI_Gold_Icons_BlackOutline_24
+  - first:
+      213: -5242746159047219543
+    second: NS_UI_Gold_Icons_BlackOutline_25
+  - first:
+      213: -7415668621670512785
+    second: NS_UI_Gold_Icons_BlackOutline_26
+  - first:
+      213: -4829969572900086764
+    second: NS_UI_Gold_Icons_BlackOutline_27
+  - first:
+      213: -3580744708508124184
+    second: NS_UI_Gold_Icons_BlackOutline_28
+  - first:
+      213: 754590464611397084
+    second: NS_UI_Gold_Icons_BlackOutline_29
+  - first:
+      213: -8514276508523011416
+    second: NS_UI_Gold_Icons_BlackOutline_30
+  - first:
+      213: 6167369656477130104
+    second: NS_UI_Gold_Icons_BlackOutline_31
+  - first:
+      213: -9032878788681837471
+    second: NS_UI_Gold_Icons_BlackOutline_32
+  - first:
+      213: 7582545005165770569
+    second: NS_UI_Gold_Icons_BlackOutline_33
+  - first:
+      213: -4773632386462712350
+    second: NS_UI_Gold_Icons_BlackOutline_34
+  - first:
+      213: 2628190353638603620
+    second: NS_UI_Gold_Icons_BlackOutline_35
+  - first:
+      213: 1987839326929472593
+    second: NS_UI_Gold_Icons_BlackOutline_36
+  - first:
+      213: -3488061589867258486
+    second: NS_UI_Gold_Icons_BlackOutline_37
+  - first:
+      213: 6119537961710655128
+    second: NS_UI_Gold_Icons_BlackOutline_38
+  - first:
+      213: -6903659267853628245
+    second: NS_UI_Gold_Icons_BlackOutline_39
+  - first:
+      213: 500281080684647852
+    second: NS_UI_Gold_Icons_BlackOutline_40
+  - first:
+      213: 3163650012720995331
+    second: NS_UI_Gold_Icons_BlackOutline_41
+  - first:
+      213: -32614764746004004
+    second: NS_UI_Gold_Icons_BlackOutline_42
+  - first:
+      213: 5548627685107187261
+    second: NS_UI_Gold_Icons_BlackOutline_43
+  - first:
+      213: -8616530466434466709
+    second: NS_UI_Gold_Icons_BlackOutline_44
+  - first:
+      213: -8091189270936647756
+    second: NS_UI_Gold_Icons_BlackOutline_45
+  - first:
+      213: -9222030465292414048
+    second: NS_UI_Gold_Icons_BlackOutline_46
+  - first:
+      213: -2871557919600665020
+    second: NS_UI_Gold_Icons_BlackOutline_47
+  - first:
+      213: -3028498815597186577
+    second: NS_UI_Gold_Icons_BlackOutline_48
+  - first:
+      213: 1883869086978579505
+    second: NS_UI_Gold_Icons_BlackOutline_49
+  - first:
+      213: -4310099631584326778
+    second: NS_UI_Gold_Icons_BlackOutline_50
+  - first:
+      213: 5234939751062812874
+    second: NS_UI_Gold_Icons_BlackOutline_51
+  - first:
+      213: -1573572377340228138
+    second: NS_UI_Gold_Icons_BlackOutline_52
+  - first:
+      213: 4777801780512663367
+    second: NS_UI_Gold_Icons_BlackOutline_53
+  - first:
+      213: -6010882321623363612
+    second: NS_UI_Gold_Icons_BlackOutline_54
+  - first:
+      213: 7967140880678346127
+    second: NS_UI_Gold_Icons_BlackOutline_55
+  - first:
+      213: -8353452049947501959
+    second: NS_UI_Gold_Icons_BlackOutline_56
+  - first:
+      213: 2465718291281482973
+    second: NS_UI_Gold_Icons_BlackOutline_57
+  - first:
+      213: 1719916275387075852
+    second: NS_UI_Gold_Icons_BlackOutline_58
+  - first:
+      213: -1044882299707841603
+    second: NS_UI_Gold_Icons_BlackOutline_59
+  - first:
+      213: 3381036665747535315
+    second: NS_UI_Gold_Icons_BlackOutline_60
+  - first:
+      213: 2702832532277476301
+    second: NS_UI_Gold_Icons_BlackOutline_61
+  - first:
+      213: -9076162510648706792
+    second: NS_UI_Gold_Icons_BlackOutline_62
+  - first:
+      213: 4383166103163349024
+    second: NS_UI_Gold_Icons_BlackOutline_63
+  - first:
+      213: 4821523525640754595
+    second: NS_UI_Gold_Icons_BlackOutline_64
+  - first:
+      213: -2163665145838790448
+    second: NS_UI_Gold_Icons_BlackOutline_65
+  - first:
+      213: -6900299712003719230
+    second: NS_UI_Gold_Icons_BlackOutline_66
+  - first:
+      213: -5302358737472783637
+    second: NS_UI_Gold_Icons_BlackOutline_67
+  - first:
+      213: 973243538079461279
+    second: NS_UI_Gold_Icons_BlackOutline_68
+  - first:
+      213: -6736222877452749388
+    second: NS_UI_Gold_Icons_BlackOutline_69
+  - first:
+      213: 233745187321789103
+    second: NS_UI_Gold_Icons_BlackOutline_70
+  - first:
+      213: -2180623582883245126
+    second: NS_UI_Gold_Icons_BlackOutline_71
+  - first:
+      213: 7323996580127780450
+    second: NS_UI_Gold_Icons_BlackOutline_72
+  - first:
+      213: -2475413058546862357
+    second: NS_UI_Gold_Icons_BlackOutline_73
+  - first:
+      213: 8829455435844648565
+    second: NS_UI_Gold_Icons_BlackOutline_74
+  - first:
+      213: 744974255064342541
+    second: NS_UI_Gold_Icons_BlackOutline_75
+  - first:
+      213: -2987818784733124560
+    second: NS_UI_Gold_Icons_BlackOutline_76
+  - first:
+      213: -2344768164467069124
+    second: NS_UI_Gold_Icons_BlackOutline_77
+  - first:
+      213: -7193893024909031775
+    second: NS_UI_Gold_Icons_BlackOutline_78
+  - first:
+      213: 3568358230665374204
+    second: NS_UI_Gold_Icons_BlackOutline_79
+  - first:
+      213: -2299933034149328312
+    second: NS_UI_Gold_Icons_BlackOutline_80
+  - first:
+      213: 1118131309870610105
+    second: NS_UI_Gold_Icons_BlackOutline_81
+  - first:
+      213: -8428600266466140700
+    second: NS_UI_Gold_Icons_BlackOutline_82
+  - first:
+      213: -3174845980162864460
+    second: NS_UI_Gold_Icons_BlackOutline_83
+  - first:
+      213: -6858887952814648385
+    second: NS_UI_Gold_Icons_BlackOutline_84
+  - first:
+      213: 514192180186806343
+    second: NS_UI_Gold_Icons_BlackOutline_85
+  - first:
+      213: 72322049163411536
+    second: NS_UI_Gold_Icons_BlackOutline_86
+  - first:
+      213: 1534269873860959352
+    second: NS_UI_Gold_Icons_BlackOutline_87
+  - first:
+      213: -678069362859189119
+    second: NS_UI_Gold_Icons_BlackOutline_88
+  - first:
+      213: -853214266247333835
+    second: NS_UI_Gold_Icons_BlackOutline_89
+  - first:
+      213: -8779649969155847396
+    second: NS_UI_Gold_Icons_BlackOutline_90
+  - first:
+      213: -7034976678184225189
+    second: NS_UI_Gold_Icons_BlackOutline_91
+  - first:
+      213: -7376242637527059781
+    second: NS_UI_Gold_Icons_BlackOutline_92
+  - first:
+      213: -7725047430660342078
+    second: NS_UI_Gold_Icons_BlackOutline_93
+  - first:
+      213: -3144257705285493136
+    second: NS_UI_Gold_Icons_BlackOutline_94
+  - first:
+      213: -4727835662334934926
+    second: NS_UI_Gold_Icons_BlackOutline_95
+  - first:
+      213: 3526987199880506023
+    second: NS_UI_Gold_Icons_BlackOutline_96
+  - first:
+      213: -2917518837857615332
+    second: NS_UI_Gold_Icons_BlackOutline_97
+  - first:
+      213: 7675797907562292855
+    second: NS_UI_Gold_Icons_BlackOutline_98
+  - first:
+      213: 5014897209833980993
+    second: NS_UI_Gold_Icons_BlackOutline_99
+  - first:
+      213: -83519455433694741
+    second: NS_UI_Gold_Icons_BlackOutline_100
+  - first:
+      213: 8581935400975437601
+    second: NS_UI_Gold_Icons_BlackOutline_101
+  - first:
+      213: 7995543611052912858
+    second: NS_UI_Gold_Icons_BlackOutline_102
+  - first:
+      213: 145446854832222289
+    second: NS_UI_Gold_Icons_BlackOutline_103
+  - first:
+      213: 7549386610675120829
+    second: NS_UI_Gold_Icons_BlackOutline_104
+  - first:
+      213: 5737504634520203098
+    second: NS_UI_Gold_Icons_BlackOutline_105
+  - first:
+      213: 667144202061221653
+    second: NS_UI_Gold_Icons_BlackOutline_106
+  - first:
+      213: -7406332635360091080
+    second: NS_UI_Gold_Icons_BlackOutline_107
+  - first:
+      213: 817997024947577942
+    second: NS_UI_Gold_Icons_BlackOutline_108
+  - first:
+      213: 2918057476876986781
+    second: NS_UI_Gold_Icons_BlackOutline_109
+  - first:
+      213: 8606718950049263474
+    second: NS_UI_Gold_Icons_BlackOutline_110
+  - first:
+      213: 7367232148637286113
+    second: NS_UI_Gold_Icons_BlackOutline_111
+  - first:
+      213: -6517709744054526249
+    second: NS_UI_Gold_Icons_BlackOutline_112
+  - first:
+      213: 664326807331060797
+    second: NS_UI_Gold_Icons_BlackOutline_113
+  - first:
+      213: -3723097956417753614
+    second: NS_UI_Gold_Icons_BlackOutline_114
+  - first:
+      213: 821898926853410226
+    second: NS_UI_Gold_Icons_BlackOutline_115
+  - first:
+      213: -5314859982285607620
+    second: NS_UI_Gold_Icons_BlackOutline_116
+  - first:
+      213: 8681717585764841149
+    second: NS_UI_Gold_Icons_BlackOutline_117
+  - first:
+      213: 2729139354372921859
+    second: NS_UI_Gold_Icons_BlackOutline_118
+  - first:
+      213: -8814759728617629233
+    second: NS_UI_Gold_Icons_BlackOutline_119
+  - first:
+      213: -8411857058478111201
+    second: NS_UI_Gold_Icons_BlackOutline_120
+  - first:
+      213: 11546723784582906
+    second: NS_UI_Gold_Icons_BlackOutline_121
+  - first:
+      213: 7758818347483706071
+    second: NS_UI_Gold_Icons_BlackOutline_122
+  - first:
+      213: 4670690137757112805
+    second: NS_UI_Gold_Icons_BlackOutline_123
+  - first:
+      213: -2065424544881235072
+    second: NS_UI_Gold_Icons_BlackOutline_124
+  - first:
+      213: -5519537069686604225
+    second: NS_UI_Gold_Icons_BlackOutline_125
+  - first:
+      213: -4214838874909268395
+    second: NS_UI_Gold_Icons_BlackOutline_126
+  - first:
+      213: -266963579451468351
+    second: NS_UI_Gold_Icons_BlackOutline_127
+  - first:
+      213: 8739110328101116205
+    second: NS_UI_Gold_Icons_BlackOutline_128
+  - first:
+      213: 7763402785713093156
+    second: NS_UI_Gold_Icons_BlackOutline_129
+  - first:
+      213: -1255533252377578877
+    second: NS_UI_Gold_Icons_BlackOutline_130
+  - first:
+      213: -1600914684039231113
+    second: NS_UI_Gold_Icons_BlackOutline_131
+  - first:
+      213: -717432977362825407
+    second: NS_UI_Gold_Icons_BlackOutline_132
+  - first:
+      213: 1265237041381412384
+    second: NS_UI_Gold_Icons_BlackOutline_133
+  - first:
+      213: 392166692982059727
+    second: NS_UI_Gold_Icons_BlackOutline_134
+  - first:
+      213: 6089030630467849397
+    second: NS_UI_Gold_Icons_BlackOutline_135
+  - first:
+      213: -1457030545889077425
+    second: NS_UI_Gold_Icons_BlackOutline_136
+  - first:
+      213: -5506963846319514417
+    second: NS_UI_Gold_Icons_BlackOutline_137
+  - first:
+      213: -6749081610754051595
+    second: NS_UI_Gold_Icons_BlackOutline_138
+  - first:
+      213: 8311908113435490448
+    second: NS_UI_Gold_Icons_BlackOutline_139
+  - first:
+      213: 8360302729177319417
+    second: NS_UI_Gold_Icons_BlackOutline_140
+  - first:
+      213: -2977154605963281483
+    second: NS_UI_Gold_Icons_BlackOutline_141
+  - first:
+      213: 7964999210998543104
+    second: NS_UI_Gold_Icons_BlackOutline_142
+  - first:
+      213: -8588950730066211245
+    second: NS_UI_Gold_Icons_BlackOutline_143
+  - first:
+      213: 2725623365658514695
+    second: NS_UI_Gold_Icons_BlackOutline_144
+  - first:
+      213: 8354006329973902686
+    second: NS_UI_Gold_Icons_BlackOutline_145
+  - first:
+      213: -635066390362374057
+    second: NS_UI_Gold_Icons_BlackOutline_146
+  - first:
+      213: -2219910162336263927
+    second: NS_UI_Gold_Icons_BlackOutline_147
+  - first:
+      213: -12758387307164819
+    second: NS_UI_Gold_Icons_BlackOutline_148
+  - first:
+      213: -4758479286763927166
+    second: NS_UI_Gold_Icons_BlackOutline_149
+  - first:
+      213: 8492458450976542192
+    second: NS_UI_Gold_Icons_BlackOutline_150
+  - first:
+      213: 2315379864613049031
+    second: NS_UI_Gold_Icons_BlackOutline_151
+  - first:
+      213: 9127999682297753618
+    second: NS_UI_Gold_Icons_BlackOutline_152
+  - first:
+      213: -3547571075127387139
+    second: NS_UI_Gold_Icons_BlackOutline_153
+  - first:
+      213: 5010170615813879166
+    second: NS_UI_Gold_Icons_BlackOutline_154
+  - first:
+      213: -8186128084183475971
+    second: NS_UI_Gold_Icons_BlackOutline_155
+  - first:
+      213: -7719525177458798543
+    second: NS_UI_Gold_Icons_BlackOutline_156
+  - first:
+      213: -7342636245985511215
+    second: NS_UI_Gold_Icons_BlackOutline_157
+  - first:
+      213: 8729191678003563086
+    second: NS_UI_Gold_Icons_BlackOutline_158
+  - first:
+      213: -6350902901235230034
+    second: NS_UI_Gold_Icons_BlackOutline_159
+  - first:
+      213: 1473723809163899143
+    second: NS_UI_Gold_Icons_BlackOutline_160
+  - first:
+      213: 1945802325565176447
+    second: NS_UI_Gold_Icons_BlackOutline_161
+  - first:
+      213: 7434343995405804404
+    second: NS_UI_Gold_Icons_BlackOutline_162
+  - first:
+      213: -8310961435594171045
+    second: NS_UI_Gold_Icons_BlackOutline_163
+  - first:
+      213: -7085424554061667429
+    second: NS_UI_Gold_Icons_BlackOutline_164
+  - first:
+      213: 4175269138335086379
+    second: NS_UI_Gold_Icons_BlackOutline_165
+  - first:
+      213: 5688084739480289566
+    second: NS_UI_Gold_Icons_BlackOutline_166
+  - first:
+      213: 498000571602506267
+    second: NS_UI_Gold_Icons_BlackOutline_167
+  - first:
+      213: 3953597270453675281
+    second: NS_UI_Gold_Icons_BlackOutline_168
+  - first:
+      213: -4243334513217041364
+    second: NS_UI_Gold_Icons_BlackOutline_169
+  - first:
+      213: -5452065237729586244
+    second: NS_UI_Gold_Icons_BlackOutline_170
+  - first:
+      213: -7529323858902245041
+    second: NS_UI_Gold_Icons_BlackOutline_171
+  - first:
+      213: 7898512853714047415
+    second: NS_UI_Gold_Icons_BlackOutline_172
+  - first:
+      213: 4650404864962876996
+    second: NS_UI_Gold_Icons_BlackOutline_173
+  - first:
+      213: 8727453766616777557
+    second: NS_UI_Gold_Icons_BlackOutline_174
+  - first:
+      213: 4449081893613825134
+    second: NS_UI_Gold_Icons_BlackOutline_175
+  - first:
+      213: 42775971533256499
+    second: NS_UI_Gold_Icons_BlackOutline_176
+  - first:
+      213: -6204219013492607957
+    second: NS_UI_Gold_Icons_BlackOutline_177
+  - first:
+      213: -4659387188197502305
+    second: NS_UI_Gold_Icons_BlackOutline_178
+  - first:
+      213: -5605315342792722862
+    second: NS_UI_Gold_Icons_BlackOutline_179
+  - first:
+      213: -7991391217396984665
+    second: NS_UI_Gold_Icons_BlackOutline_180
+  - first:
+      213: -6561281002149262396
+    second: NS_UI_Gold_Icons_BlackOutline_181
+  - first:
+      213: 9085829271797496311
+    second: NS_UI_Gold_Icons_BlackOutline_182
+  - first:
+      213: 3963048383846103023
+    second: NS_UI_Gold_Icons_BlackOutline_183
+  - first:
+      213: 1485340211428594540
+    second: NS_UI_Gold_Icons_BlackOutline_184
+  - first:
+      213: -8704236042911379671
+    second: NS_UI_Gold_Icons_BlackOutline_185
+  - first:
+      213: 5182718978975154831
+    second: NS_UI_Gold_Icons_BlackOutline_186
+  - first:
+      213: -7973488768831915743
+    second: NS_UI_Gold_Icons_BlackOutline_187
+  - first:
+      213: 5195954938493177980
+    second: NS_UI_Gold_Icons_BlackOutline_188
+  - first:
+      213: -8440867554802969427
+    second: NS_UI_Gold_Icons_BlackOutline_189
+  - first:
+      213: -2926159953114938412
+    second: NS_UI_Gold_Icons_BlackOutline_190
+  - first:
+      213: -2236098694867505628
+    second: NS_UI_Gold_Icons_BlackOutline_191
+  - first:
+      213: -8618771394011427218
+    second: NS_UI_Gold_Icons_BlackOutline_192
+  - first:
+      213: -5806566766638839264
+    second: NS_UI_Gold_Icons_BlackOutline_193
+  - first:
+      213: 8698508892770503533
+    second: NS_UI_Gold_Icons_BlackOutline_194
+  - first:
+      213: 8387079713590710361
+    second: NS_UI_Gold_Icons_BlackOutline_195
+  - first:
+      213: 952344155101700044
+    second: NS_UI_Gold_Icons_BlackOutline_196
+  - first:
+      213: 1383406380099252300
+    second: NS_UI_Gold_Icons_BlackOutline_197
+  - first:
+      213: 6617837651668190088
+    second: NS_UI_Gold_Icons_BlackOutline_198
+  - first:
+      213: 6443197465493853038
+    second: NS_UI_Gold_Icons_BlackOutline_199
+  - first:
+      213: 300326848831493656
+    second: NS_UI_Gold_Icons_BlackOutline_200
+  - first:
+      213: -8375343478085290984
+    second: NS_UI_Gold_Icons_BlackOutline_201
+  - first:
+      213: 3299037370425334399
+    second: NS_UI_Gold_Icons_BlackOutline_202
+  - first:
+      213: -5784798433656579943
+    second: NS_UI_Gold_Icons_BlackOutline_203
+  - first:
+      213: -3371459065932559946
+    second: NS_UI_Gold_Icons_BlackOutline_204
+  - first:
+      213: 2710038683752965083
+    second: NS_UI_Gold_Icons_BlackOutline_205
+  - first:
+      213: 802715641041086720
+    second: NS_UI_Gold_Icons_BlackOutline_206
+  - first:
+      213: -5447186526388498800
+    second: NS_UI_Gold_Icons_BlackOutline_207
+  - first:
+      213: 7803227702867902895
+    second: NS_UI_Gold_Icons_BlackOutline_208
+  - first:
+      213: 8261553441614306462
+    second: NS_UI_Gold_Icons_BlackOutline_209
+  - first:
+      213: 8749709593411217497
+    second: NS_UI_Gold_Icons_BlackOutline_210
+  - first:
+      213: 5926010384824371834
+    second: NS_UI_Gold_Icons_BlackOutline_211
+  - first:
+      213: -2241073494367803765
+    second: NS_UI_Gold_Icons_BlackOutline_212
+  - first:
+      213: -826968336238695520
+    second: NS_UI_Gold_Icons_BlackOutline_213
+  - first:
+      213: -4736466246895813687
+    second: NS_UI_Gold_Icons_BlackOutline_214
+  - first:
+      213: 215154274618115218
+    second: NS_UI_Gold_Icons_BlackOutline_215
+  - first:
+      213: 5673422181488450570
+    second: NS_UI_Gold_Icons_BlackOutline_216
+  - first:
+      213: 3568498773259726941
+    second: NS_UI_Gold_Icons_BlackOutline_217
+  - first:
+      213: -3272268134555207974
+    second: NS_UI_Gold_Icons_BlackOutline_218
+  - first:
+      213: -4947446093142851914
+    second: NS_UI_Gold_Icons_BlackOutline_219
+  - first:
+      213: 6995063011161011837
+    second: NS_UI_Gold_Icons_BlackOutline_220
+  - first:
+      213: 3616215375244509441
+    second: NS_UI_Gold_Icons_BlackOutline_221
+  - first:
+      213: 6947619198377555376
+    second: NS_UI_Gold_Icons_BlackOutline_222
+  - first:
+      213: 3508589358418756586
+    second: NS_UI_Gold_Icons_BlackOutline_223
+  - first:
+      213: -4135579531860308168
+    second: NS_UI_Gold_Icons_BlackOutline_224
+  - first:
+      213: 6707498260201795426
+    second: NS_UI_Gold_Icons_BlackOutline_225
+  - first:
+      213: 2268125563619708974
+    second: NS_UI_Gold_Icons_BlackOutline_226
+  - first:
+      213: 2063279285721408673
+    second: NS_UI_Gold_Icons_BlackOutline_227
+  - first:
+      213: -4825662808104516465
+    second: NS_UI_Gold_Icons_BlackOutline_228
+  - first:
+      213: -1698242023257470264
+    second: NS_UI_Gold_Icons_BlackOutline_229
+  - first:
+      213: -7237073440776980786
+    second: NS_UI_Gold_Icons_BlackOutline_230
+  - first:
+      213: 5778447775174116890
+    second: NS_UI_Gold_Icons_BlackOutline_231
+  - first:
+      213: 1007073995822916987
+    second: NS_UI_Gold_Icons_BlackOutline_232
+  - first:
+      213: 5524637437715126497
+    second: NS_UI_Gold_Icons_BlackOutline_233
+  - first:
+      213: -7180919947036528971
+    second: NS_UI_Gold_Icons_BlackOutline_234
+  - first:
+      213: -3436858105788295326
+    second: NS_UI_Gold_Icons_BlackOutline_235
+  - first:
+      213: 5133516342421093497
+    second: NS_UI_Gold_Icons_BlackOutline_236
+  - first:
+      213: -4181599983154088028
+    second: NS_UI_Gold_Icons_BlackOutline_237
+  - first:
+      213: -7839023564676874106
+    second: NS_UI_Gold_Icons_BlackOutline_238
+  - first:
+      213: -6100555376985525012
+    second: NS_UI_Gold_Icons_BlackOutline_239
+  - first:
+      213: 1801435328935189458
+    second: NS_UI_Gold_Icons_BlackOutline_240
+  - first:
+      213: -8384520097250201270
+    second: NS_UI_Gold_Icons_BlackOutline_241
+  - first:
+      213: -7282227380859430527
+    second: NS_UI_Gold_Icons_BlackOutline_242
+  - first:
+      213: -7548957111247763682
+    second: NS_UI_Gold_Icons_BlackOutline_243
+  - first:
+      213: -6942448636308622032
+    second: NS_UI_Gold_Icons_BlackOutline_244
+  - first:
+      213: -4988056390947074191
+    second: NS_UI_Gold_Icons_BlackOutline_245
+  - first:
+      213: -4712494748899075413
+    second: NS_UI_Gold_Icons_BlackOutline_246
+  - first:
+      213: -2129535275732515871
+    second: NS_UI_Gold_Icons_BlackOutline_247
+  - first:
+      213: 1096487846658373553
+    second: NS_UI_Gold_Icons_BlackOutline_248
+  - first:
+      213: -7606370686072490141
+    second: NS_UI_Gold_Icons_BlackOutline_249
+  - first:
+      213: 8460732911104179456
+    second: NS_UI_Gold_Icons_BlackOutline_250
+  - first:
+      213: 7004327084560032778
+    second: NS_UI_Gold_Icons_BlackOutline_251
+  - first:
+      213: -4744240421973543521
+    second: NS_UI_Gold_Icons_BlackOutline_252
+  - first:
+      213: 6118083626865646327
+    second: NS_UI_Gold_Icons_BlackOutline_253
+  - first:
+      213: 1994489520115967819
+    second: NS_UI_Gold_Icons_BlackOutline_254
+  - first:
+      213: 6287168102991803773
+    second: NS_UI_Gold_Icons_BlackOutline_255
+  - first:
+      213: -2087857951363010086
+    second: NS_UI_Gold_Icons_BlackOutline_256
+  - first:
+      213: -1658605951289701556
+    second: NS_UI_Gold_Icons_BlackOutline_257
+  - first:
+      213: -2773542183478109856
+    second: NS_UI_Gold_Icons_BlackOutline_258
+  - first:
+      213: -7093741269512358132
+    second: NS_UI_Gold_Icons_BlackOutline_259
+  - first:
+      213: -5684263491001723668
+    second: NS_UI_Gold_Icons_BlackOutline_260
+  - first:
+      213: 8187411257425132416
+    second: NS_UI_Gold_Icons_BlackOutline_261
+  - first:
+      213: -7949711655916030720
+    second: NS_UI_Gold_Icons_BlackOutline_262
+  - first:
+      213: -1679953106896862091
+    second: NS_UI_Gold_Icons_BlackOutline_263
+  - first:
+      213: 8918228692522645348
+    second: NS_UI_Gold_Icons_BlackOutline_264
+  - first:
+      213: -2544442527921117369
+    second: NS_UI_Gold_Icons_BlackOutline_265
+  - first:
+      213: 5683707981530339016
+    second: NS_UI_Gold_Icons_BlackOutline_266
+  - first:
+      213: 1597152216954521175
+    second: NS_UI_Gold_Icons_BlackOutline_267
+  - first:
+      213: 7039451014996155244
+    second: NS_UI_Gold_Icons_BlackOutline_268
+  - first:
+      213: 4174717357679959099
+    second: NS_UI_Gold_Icons_BlackOutline_269
+  - first:
+      213: 7877664502100891722
+    second: NS_UI_Gold_Icons_BlackOutline_270
+  - first:
+      213: -6078766104923065456
+    second: NS_UI_Gold_Icons_BlackOutline_271
+  - first:
+      213: -4467333386325168626
+    second: NS_UI_Gold_Icons_BlackOutline_272
+  - first:
+      213: 5822203683975859978
+    second: NS_UI_Gold_Icons_BlackOutline_273
+  - first:
+      213: 3817093205331627874
+    second: NS_UI_Gold_Icons_BlackOutline_274
+  - first:
+      213: -1406622379143349020
+    second: NS_UI_Gold_Icons_BlackOutline_275
+  - first:
+      213: -9022863061971132859
+    second: NS_UI_Gold_Icons_BlackOutline_276
+  - first:
+      213: -5099473943861865611
+    second: NS_UI_Gold_Icons_BlackOutline_277
+  - first:
+      213: 8898891531839022106
+    second: NS_UI_Gold_Icons_BlackOutline_278
+  - first:
+      213: 7250888673919549536
+    second: NS_UI_Gold_Icons_BlackOutline_279
+  - first:
+      213: 1164445200664256727
+    second: NS_UI_Gold_Icons_BlackOutline_280
+  - first:
+      213: -7773576908332433651
+    second: NS_UI_Gold_Icons_BlackOutline_281
+  - first:
+      213: 5273422993581698183
+    second: NS_UI_Gold_Icons_BlackOutline_282
+  - first:
+      213: -4235180111424585415
+    second: NS_UI_Gold_Icons_BlackOutline_283
+  - first:
+      213: -596068952645394954
+    second: NS_UI_Gold_Icons_BlackOutline_284
+  - first:
+      213: -4873837177474455817
+    second: NS_UI_Gold_Icons_BlackOutline_285
+  - first:
+      213: 1147227337628162001
+    second: NS_UI_Gold_Icons_BlackOutline_286
+  - first:
+      213: -7368625791622907292
+    second: NS_UI_Gold_Icons_BlackOutline_287
+  - first:
+      213: -8978784496632353047
+    second: NS_UI_Gold_Icons_BlackOutline_288
+  - first:
+      213: 4994445349869874708
+    second: NS_UI_Gold_Icons_BlackOutline_289
+  - first:
+      213: -7192130506049722133
+    second: NS_UI_Gold_Icons_BlackOutline_290
+  - first:
+      213: -4952826644275670672
+    second: NS_UI_Gold_Icons_BlackOutline_291
+  - first:
+      213: 5983549752374534336
+    second: NS_UI_Gold_Icons_BlackOutline_292
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae72394234e46f90800000000000000
+      internalID: -6961188219380400471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20b0b730d9316240800000000000000
+      internalID: 4783167845694484524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29633d343499045b0800000000000000
+      internalID: -5386136640155339118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006e28a767f9f9be0800000000000000
+      internalID: -1468279622289136128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b456f0ff4690ce960800000000000000
+      internalID: 7632485797866726731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccce3352426d39c0800000000000000
+      internalID: -3945889661502698301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2b537dcedec47c0800000000000000
+      internalID: -4085629160453197086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11cd73772d8b0c20800000000000000
+      internalID: 3173785562993508635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfe10bb1ceb2d610800000000000000
+      internalID: 1644586553219084226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f996c6bb3049840800000000000000
+      internalID: 5229809170796617587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de12ca924ef31f520800000000000000
+      internalID: 2734036697974841837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_11
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c5ae5c2635f46d0800000000000000
+      internalID: -3004090742740460490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_12
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc34f2b99a683710800000000000000
+      internalID: 1673204469933030596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_13
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe7ca00c617d8130800000000000000
+      internalID: 3570634788256382651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_14
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3952f42fc24b1b430800000000000000
+      internalID: 3797014065986872723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_15
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1efe7413420aad0800000000000000
+      internalID: -2693112783088655933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_16
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc0733cbd3363c90800000000000000
+      internalID: -7190502736084398849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_17
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 512
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3617b098a737d2f00800000000000000
+      internalID: 1093657254643331427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe44d11ae06db8e0800000000000000
+      internalID: -1676076927874216203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_19
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26a88ba548c07a30800000000000000
+      internalID: 4211085853147571757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_20
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c239b05361ed45130800000000000000
+      internalID: 3554710192862761772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_21
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d64b8c445031b40800000000000000
+      internalID: 5409673370385280412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_22
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623cc5b4d0807fe40800000000000000
+      internalID: 5690025507397878566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_23
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9808c4be245af6150800000000000000
+      internalID: 5868090546321129609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_24
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409ee9269fa9745d0800000000000000
+      internalID: -3078321424392328956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_25
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6627645260e37b0800000000000000
+      internalID: -5242746159047219543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_26
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f678151bda0461990800000000000000
+      internalID: -7415668621670512785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_27
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c5853834088fcb0800000000000000
+      internalID: -4829969572900086764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_28
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb7302c8a3ae4ec0800000000000000
+      internalID: -3580744708508124184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_29
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd2f029708d87a00800000000000000
+      internalID: 754590464611397084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_30
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2680640a637d980800000000000000
+      internalID: -8514276508523011416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_31
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d97d4c606e69550800000000000000
+      internalID: 6167369656477130104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_32
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16455759994c4a280800000000000000
+      internalID: -9032878788681837471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_33
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9477156128c9a3960800000000000000
+      internalID: 7582545005165770569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_34
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edf694e2a6a0cdb0800000000000000
+      internalID: -4773632386462712350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_35
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 480
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bbcbea335397420800000000000000
+      internalID: 2628190353638603620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_36
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cce28f559369b10800000000000000
+      internalID: 1987839326929472593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_37
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d174de67ae79fc0800000000000000
+      internalID: -3488061589867258486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_38
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896184d7a57fce450800000000000000
+      internalID: 6119537961710655128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_39
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac404919764130a0800000000000000
+      internalID: -6903659267853628245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_40
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca59e060efa51f600800000000000000
+      internalID: 500281080684647852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_41
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c15e1ccea87eb20800000000000000
+      internalID: 3163650012720995331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_42
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9a1e45b012c8ff0800000000000000
+      internalID: -32614764746004004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_43
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e36b15b7fa00d40800000000000000
+      internalID: 5548627685107187261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_44
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cb7df613feb6880800000000000000
+      internalID: -8616530466434466709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_45
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b78e5f1a3256bf80800000000000000
+      internalID: -8091189270936647756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_46
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a35a68f624c40080800000000000000
+      internalID: -9222030465292414048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_47
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e1e3a494d2628d0800000000000000
+      internalID: -2871557919600665020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_48
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe173a57f5c98f5d0800000000000000
+      internalID: -3028498815597186577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_49
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c92b414f8d42a10800000000000000
+      internalID: 1883869086978579505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_50
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bcfd098337f24c0800000000000000
+      internalID: -4310099631584326778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_51
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8bbaab7fd36a840800000000000000
+      internalID: 5234939751062812874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_52
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddc44c824c892ae0800000000000000
+      internalID: -1573572377340228138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_53
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 448
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747afaec7692e4240800000000000000
+      internalID: 4777801780512663367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_54
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efc6f0206e059ca0800000000000000
+      internalID: -6010882321623363612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_55
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d53545b68f09e60800000000000000
+      internalID: 7967140880678346127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_56
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ade9a7e93921c80800000000000000
+      internalID: -8353452049947501959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_57
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd41404d8bdf73220800000000000000
+      internalID: 2465718291281482973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_58
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d0cdd6dbe5ed710800000000000000
+      internalID: 1719916275387075852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_59
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db322dd9515df71f0800000000000000
+      internalID: -1044882299707841603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_60
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5f37a1feadbee20800000000000000
+      internalID: 3381036665747535315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_61
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbb4cd2ed3628520800000000000000
+      internalID: 2702832532277476301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_62
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819f01db84efa0280800000000000000
+      internalID: -9076162510648706792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_63
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028a59a095224dc30800000000000000
+      internalID: 4383166103163349024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_64
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5910ed91e79e240800000000000000
+      internalID: 4821523525640754595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_65
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d89261730e19f1e0800000000000000
+      internalID: -2163665145838790448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_66
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfb946a8f53d30a0800000000000000
+      internalID: -6900299712003719230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_67
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beafe3542dc3a66b0800000000000000
+      internalID: -5302358737472783637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_68
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fab2767d7a18d00800000000000000
+      internalID: 973243538079461279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_69
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5b195abf02482a0800000000000000
+      internalID: -6736222877452749388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_70
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faab54a620e6e3300800000000000000
+      internalID: 233745187321789103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_71
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 416
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab39761a76edcb1e0800000000000000
+      internalID: -2180623582883245126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_72
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e21bed51014a560800000000000000
+      internalID: 7323996580127780450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_73
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be673f440f095add0800000000000000
+      internalID: -2475413058546862357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_74
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e79ad30f6888a70800000000000000
+      internalID: 8829455435844648565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_75
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00ebef432ea65a00800000000000000
+      internalID: 744974255064342541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_76
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0382eba35a22986d0800000000000000
+      internalID: -2987818784733124560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_77
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fab4c07c5b57fd0800000000000000
+      internalID: -2344768164467069124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_78
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a60322a8682a2c90800000000000000
+      internalID: -7193893024909031775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_79
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9a622a7ea558130800000000000000
+      internalID: 3568358230665374204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_80
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ac75c471ff410e0800000000000000
+      internalID: -2299933034149328312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_81
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b674119086648f00800000000000000
+      internalID: 1118131309870610105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_82
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edd58bd6b8970b80800000000000000
+      internalID: -8428600266466140700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_83
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bac0dfe66ea0f3d0800000000000000
+      internalID: -3174845980162864460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_84
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3d6423fb550d0a0800000000000000
+      internalID: -6858887952814648385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_85
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74871564017c22700800000000000000
+      internalID: 514192180186806343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_86
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05040d14580f00100800000000000000
+      internalID: 72322049163411536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_87
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cd0154252da4510800000000000000
+      internalID: 1534269873860959352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_88
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cd3bdc1830796f0800000000000000
+      internalID: -678069362859189119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_89
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 384
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53838073526c824f0800000000000000
+      internalID: -853214266247333835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_90
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b4230aeda682680800000000000000
+      internalID: -8779649969155847396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_91
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56fbadebfdbe5e90800000000000000
+      internalID: -7034976678184225189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_92
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2fb15f66252a990800000000000000
+      internalID: -7376242637527059781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_93
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce32767a4e1bc490800000000000000
+      internalID: -7725047430660342078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_94
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e5c2aa64a5d54d0800000000000000
+      internalID: -3144257705285493136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_95
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2704a16a38a536eb0800000000000000
+      internalID: -4727835662334934926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_96
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa2a38eb2062f030800000000000000
+      internalID: 3526987199880506023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_97
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c128cfb1314e287d0800000000000000
+      internalID: -2917518837857615332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_98
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776efef5789e58a60800000000000000
+      internalID: 7675797907562292855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_99
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1448049317e789540800000000000000
+      internalID: 5014897209833980993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_100
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be16a0f6f7747def0800000000000000
+      internalID: -83519455433694741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_101
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f8d7437c8291770800000000000000
+      internalID: 8581935400975437601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_102
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0f3f25d80e5fe60800000000000000
+      internalID: 7995543611052912858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_103
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150f8f3d42bb40200800000000000000
+      internalID: 145446854832222289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_104
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba7161cf1fc4c860800000000000000
+      internalID: 7549386610675120829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_105
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5febb50116bf9f40800000000000000
+      internalID: 5737504634520203098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_106
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f02d9fd1c224900800000000000000
+      internalID: 667144202061221653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_107
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 352
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834aaf465bb673990800000000000000
+      internalID: -7406332635360091080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_108
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654a353d5fb1a5b00800000000000000
+      internalID: 817997024947577942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_109
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99ec6f80d50f7820800000000000000
+      internalID: 2918057476876986781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_110
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f2f43e845317770800000000000000
+      internalID: 8606718950049263474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_111
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eefc5d1b9aad3660800000000000000
+      internalID: 7367232148637286113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_112
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de178425817c85a0800000000000000
+      internalID: -6517709744054526249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_113
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cbcb526b9283900800000000000000
+      internalID: 664326807331060797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_114
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdacbb6226e45cc0800000000000000
+      internalID: -3723097956417753614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_115
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd4f5828b8f76b00800000000000000
+      internalID: 821898926853410226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_116
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d6de46103dd36b0800000000000000
+      internalID: -5314859982285607620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_117
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db676c38528ab7870800000000000000
+      internalID: 8681717585764841149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_118
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30adfef78c9dfd520800000000000000
+      internalID: 2729139354372921859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_119
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9d35bbabeaba580800000000000000
+      internalID: -8814759728617629233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_120
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16cc00c294134b80800000000000000
+      internalID: -8411857058478111201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_121
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6ef712fa5092000800000000000000
+      internalID: 11546723784582906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_122
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2bc86dd2cdcab60800000000000000
+      internalID: 7758818347483706071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_123
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9dee41fef91d040800000000000000
+      internalID: 4670690137757112805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_124
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b2bfbc1532653e0800000000000000
+      internalID: -2065424544881235072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_125
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 320
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ebab4674aa663b0800000000000000
+      internalID: -5519537069686604225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_126
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556a68bdf52e185c0800000000000000
+      internalID: -4214838874909268395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_127
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c514d6f90e8b4cf0800000000000000
+      internalID: -266963579451468351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_128
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d291a67aa8e874970800000000000000
+      internalID: 8739110328101116205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_129
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42af4ba83b52dbb60800000000000000
+      internalID: 7763402785713093156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_130
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382f758b823739ee0800000000000000
+      internalID: -1255533252377578877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_131
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779822ea39868c9e0800000000000000
+      internalID: -1600914684039231113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_132
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f432a128a2b06f0800000000000000
+      internalID: -717432977362825407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_133
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e8438b2660f8110800000000000000
+      internalID: 1265237041381412384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_134
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc27feb8781417500800000000000000
+      internalID: 392166692982059727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_135
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc428be815908450800000000000000
+      internalID: 6089030630467849397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_136
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47536d207697cbe0800000000000000
+      internalID: -1457030545889077425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_137
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccd4351f855393b0800000000000000
+      internalID: -5506963846319514417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_138
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f132ee78027652a0800000000000000
+      internalID: -6749081610754051595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_139
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098720b0464d95370800000000000000
+      internalID: 8311908113435490448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_140
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7c7539903c50470800000000000000
+      internalID: 8360302729177319417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_141
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbf326d8a50fa6d0800000000000000
+      internalID: -2977154605963281483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_142
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003b5dff49c598e60800000000000000
+      internalID: 7964999210998543104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_143
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 288
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e421531daedc880800000000000000
+      internalID: -8588950730066211245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_144
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7059495920c53d520800000000000000
+      internalID: 2725623365658514695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_145
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d8575ee746fe370800000000000000
+      internalID: 8354006329973902686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_146
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75049a19b7acf27f0800000000000000
+      internalID: -635066390362374057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_147
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901daac087b4131e0800000000000000
+      internalID: -2219910162336263927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_148
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b46a8705ca2dff0800000000000000
+      internalID: -12758387307164819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_149
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289c169dc4c76fdb0800000000000000
+      internalID: -4758479286763927166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_150
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd883857f54bd570800000000000000
+      internalID: 8492458450976542192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_151
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c25a5e28b1e12020800000000000000
+      internalID: 2315379864613049031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_152
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2107c3d495b2dae70800000000000000
+      internalID: 9127999682297753618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_153
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbd49b27ee74cec0800000000000000
+      internalID: -3547571075127387139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_154
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75bfab41a3b78540800000000000000
+      internalID: 5010170615813879166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_155
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8156021e7056e80800000000000000
+      internalID: -8186128084183475971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_156
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13052ea30ccbed490800000000000000
+      internalID: -7719525177458798543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_157
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8302bbc37b91a90800000000000000
+      internalID: -7342636245985511215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_158
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ac2b7f491542970800000000000000
+      internalID: 8729191678003563086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_159
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa50e8b57f0dd7a0800000000000000
+      internalID: -6350902901235230034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_160
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701ff3e0ff7b37410800000000000000
+      internalID: 1473723809163899143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_161
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 256
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7af072e7e0e00b10800000000000000
+      internalID: 1945802325565176447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_162
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473a83899781c2760800000000000000
+      internalID: 7434343995405804404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_163
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d50719b9889ac80800000000000000
+      internalID: -8310961435594171045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_164
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93e25488e38bad90800000000000000
+      internalID: -7085424554061667429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_165
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b273d18e82981f930800000000000000
+      internalID: 4175269138335086379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_166
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e110b0d0fe220fe40800000000000000
+      internalID: 5688084739480289566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_167
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b121f40a1e049e600800000000000000
+      internalID: 498000571602506267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_168
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115685a35cffdd630800000000000000
+      internalID: 3953597270453675281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_169
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c0b8c0eb5ac15c0800000000000000
+      internalID: -4243334513217041364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_170
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb35fd47d8f5654b0800000000000000
+      internalID: -5452065237729586244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_171
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f412247a7d7728790800000000000000
+      internalID: -7529323858902245041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_172
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b19b73a7972d9d60800000000000000
+      internalID: 7898512853714047415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_173
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4465cd5f59e898040800000000000000
+      internalID: 4650404864962876996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_174
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55386d0f5f42e1970800000000000000
+      internalID: 8727453766616777557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_175
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c6975f8605ebd30800000000000000
+      internalID: 4449081893613825134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_176
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337792cf488f79000800000000000000
+      internalID: 42775971533256499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_177
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b247c08bdaf26e9a0800000000000000
+      internalID: -6204219013492607957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_178
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f925b70f908865fb0800000000000000
+      internalID: -4659387188197502305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_179
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256facad46be532b0800000000000000
+      internalID: -5605315342792722862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_180
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a450e92700e81190800000000000000
+      internalID: -7991391217396984665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_181
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbcf5311b5a1f4a0800000000000000
+      internalID: -6561281002149262396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_182
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9f55b7599571e70800000000000000
+      internalID: 9085829271797496311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_183
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe735da02839ff630800000000000000
+      internalID: 3963048383846103023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_184
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c631ec87d0dfc9410800000000000000
+      internalID: 1485340211428594540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_185
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f8d1d9f67543780800000000000000
+      internalID: -8704236042911379671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_186
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f824d70c377bce740800000000000000
+      internalID: 5182718978975154831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_187
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129f439c53a785190800000000000000
+      internalID: -7973488768831915743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_188
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7092d9bc7dbb1840800000000000000
+      internalID: 5195954938493177980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_189
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da459d73ea30cda80800000000000000
+      internalID: -8440867554802969427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_190
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d34c9ea6013467d0800000000000000
+      internalID: -2926159953114938412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_191
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e25b99518c7f0e0800000000000000
+      internalID: -2236098694867505628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_192
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e86a3d419f36880800000000000000
+      internalID: -8618771394011427218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_193
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a47ed4a4eea6fa0800000000000000
+      internalID: -5806566766638839264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_194
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b892550cf47b870800000000000000
+      internalID: 8698508892770503533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_195
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95095771094e46470800000000000000
+      internalID: 8387079713590710361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_196
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf91cc96f7673d00800000000000000
+      internalID: 952344155101700044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_197
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 192
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4033d9e5c8d23310800000000000000
+      internalID: 1383406380099252300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_198
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88343e8084847db50800000000000000
+      internalID: 6617837651668190088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_199
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63557415f5da6950800000000000000
+      internalID: 6443197465493853038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_200
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8161d158da9fa2400800000000000000
+      internalID: 300326848831493656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_201
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81477dc2b7dc4cb80800000000000000
+      internalID: -8375343478085290984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_202
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ad0f4620988cd20800000000000000
+      internalID: 3299037370425334399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_203
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998d9a8497448bfa0800000000000000
+      internalID: -5784798433656579943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_204
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9c150a7db2631d0800000000000000
+      internalID: -3371459065932559946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_205
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3a9a013ddfb9520800000000000000
+      internalID: 2710038683752965083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_206
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00967ef5f91d32b00800000000000000
+      internalID: 802715641041086720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_207
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ec155f6b4b764b0800000000000000
+      internalID: -5447186526388498800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_208
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1cde2a042aa4c60800000000000000
+      internalID: 7803227702867902895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_209
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c9354651fe6a270800000000000000
+      internalID: 8261553441614306462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_210
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9586a1b64863d6970800000000000000
+      internalID: 8749709593411217497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_211
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a8bb23c0b6d3250800000000000000
+      internalID: 5926010384824371834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_212
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86e9a4d78b16e0e0800000000000000
+      internalID: -2241073494367803765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_213
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab2ffdfda40684f0800000000000000
+      internalID: -826968336238695520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_214
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbb5271b01b44eb0800000000000000
+      internalID: -4736466246895813687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_215
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294058e3ca16cf200800000000000000
+      internalID: 215154274618115218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_216
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cd07c3a6b0cbe40800000000000000
+      internalID: 5673422181488450570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_217
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5030914abad58130800000000000000
+      internalID: 3568498773259726941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_218
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6b10608719692d0800000000000000
+      internalID: -3272268134555207974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_219
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be73d0bdf3275bb0800000000000000
+      internalID: -4947446093142851914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_220
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76f9b94fb4731160800000000000000
+      internalID: 6995063011161011837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_221
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10141c869b06f2230800000000000000
+      internalID: 3616215375244509441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_222
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b57af1d9d6ea6060800000000000000
+      internalID: 6947619198377555376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_223
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae30443ae6301b030800000000000000
+      internalID: 3508589358418756586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_224
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f0717b3587b96c0800000000000000
+      internalID: -4135579531860308168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_225
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fe0ea3122d51d50800000000000000
+      internalID: 6707498260201795426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_226
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20198dde200a7f10800000000000000
+      internalID: 2268125563619708974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_227
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4a8d1249d32ac10800000000000000
+      internalID: 2063279285721408673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_228
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84cd155e3dc70db0800000000000000
+      internalID: -4825662808104516465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_229
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca0915a0e1ae68e0800000000000000
+      internalID: -1698242023257470264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_230
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6f21d9c00c09b90800000000000000
+      internalID: -7237073440776980786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_231
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a164660d2ab213050800000000000000
+      internalID: 5778447775174116890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_232
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75ee87a678d9fd00800000000000000
+      internalID: 1007073995822916987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_233
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e895d39a747bac40800000000000000
+      internalID: 5524637437715126497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_234
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5beee54ba5f385c90800000000000000
+      internalID: -7180919947036528971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_235
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267111513c3dd40d0800000000000000
+      internalID: -3436858105788295326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_236
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cfba63ae9ed3740800000000000000
+      internalID: 5133516342421093497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_237
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7325b68f8f7f5c0800000000000000
+      internalID: -4181599983154088028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_238
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680c481d991363390800000000000000
+      internalID: -7839023564676874106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_239
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4bd2ee439765ba0800000000000000
+      internalID: -6100555376985525012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_240
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db550323ebfff810800000000000000
+      internalID: 1801435328935189458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_241
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a413747056334ab80800000000000000
+      internalID: -8384520097250201270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_242
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189104ea7c450fa90800000000000000
+      internalID: -7282227380859430527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_243
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e170b6fd087bc3790800000000000000
+      internalID: -7548957111247763682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_244
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035fd697fb777af90800000000000000
+      internalID: -6942448636308622032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_245
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f8bf9e32dd6cab0800000000000000
+      internalID: -4988056390947074191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_246
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa1af56efad99eb0800000000000000
+      internalID: -4712494748899075413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_247
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3cc4113fe5272e0800000000000000
+      internalID: -2129535275732515871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_248
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7fa9813e1873f00800000000000000
+      internalID: 1096487846658373553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_249
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36774ba492eb07690800000000000000
+      internalID: -7606370686072490141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_250
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d32d971cf8a6570800000000000000
+      internalID: 8460732911104179456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_251
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0429d57f5e543160800000000000000
+      internalID: 7004327084560032778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_252
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95b737e872192eb0800000000000000
+      internalID: -4744240421973543521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_253
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fad575c4acc7e450800000000000000
+      internalID: 6118083626865646327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_254
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4760cab6a9ddab10800000000000000
+      internalID: 1994489520115967819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_255
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d753efd2412804750800000000000000
+      internalID: 6287168102991803773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_256
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1788351407603e0800000000000000
+      internalID: -2087857951363010086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_257
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b470bcca27bf8e0800000000000000
+      internalID: -1658605951289701556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_258
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069d93834166289d0800000000000000
+      internalID: -2773542183478109856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_259
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07ff2e46e7fd8d90800000000000000
+      internalID: -7093741269512358132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_260
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4de11b8707d11b0800000000000000
+      internalID: -5684263491001723668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_261
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bfbdce8278f9170800000000000000
+      internalID: 8187411257425132416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_262
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005b75a4e53fca190800000000000000
+      internalID: -7949711655916030720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_263
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5744910dc8b9fa8e0800000000000000
+      internalID: -1679953106896862091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_264
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467328bbeb9e3cb70800000000000000
+      internalID: 8918228692522645348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_265
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7476ddb700350bcd0800000000000000
+      internalID: -2544442527921117369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_266
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c61b2eab4690ee40800000000000000
+      internalID: 5683707981530339016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_267
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7564dcfaa793a2610800000000000000
+      internalID: 1597152216954521175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_268
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bdb9ac66721b160800000000000000
+      internalID: 7039451014996155244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_269
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cdb2671539fe930800000000000000
+      internalID: 4174717357679959099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_270
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a489d638026135d60800000000000000
+      internalID: 7877664502100891722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_271
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093306b2f62e3aba0800000000000000
+      internalID: -6078766104923065456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_272
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e68de34f7d002c0800000000000000
+      internalID: -4467333386325168626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_273
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f0a59376f9cc050800000000000000
+      internalID: 5822203683975859978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_274
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f4952eb0a09f430800000000000000
+      internalID: 3817093205331627874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_275
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecbb06166caa7ce0800000000000000
+      internalID: -1406622379143349020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_276
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e973ea9d958c280800000000000000
+      internalID: -9022863061971132859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_277
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573d0ca57770b39b0800000000000000
+      internalID: -5099473943861865611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_278
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a142ff923b63f7b70800000000000000
+      internalID: 8898891531839022106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_279
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060c0e205d450a460800000000000000
+      internalID: 7250888673919549536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_280
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d060029db0f82010800000000000000
+      internalID: 1164445200664256727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_281
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f7aa0fcf4be1490800000000000000
+      internalID: -7773576908332433651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_282
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c60dad546fe2940800000000000000
+      internalID: 5273422993581698183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_283
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9310dbaa02e9935c0800000000000000
+      internalID: -4235180111424585415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_284
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd9ee712765ab7f0800000000000000
+      internalID: -596068952645394954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_285
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6ea87e8e6ac5cb0800000000000000
+      internalID: -4873837177474455817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_286
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d791ff6f25cbef00800000000000000
+      internalID: 1147227337628162001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_287
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 32
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46af88712e16db990800000000000000
+      internalID: -7368625791622907292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_288
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eea17b6213f46380800000000000000
+      internalID: -8978784496632353047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_289
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e68118595df4540800000000000000
+      internalID: 4994445349869874708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_290
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8e7a8096b603c90800000000000000
+      internalID: -7192130506049722133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_291
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071dbd18866044bb0800000000000000
+      internalID: -4952826644275670672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NS_UI_Gold_Icons_BlackOutline_292
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0292e2cc6d90350800000000000000
+      internalID: 5983549752374534336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

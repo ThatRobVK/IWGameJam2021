@@ -44,19 +44,29 @@ namespace FDaaGF
         }
 
         // Called on offeringPanel.OnOfferingConfirmed
-        private void HandleOfferingConfirmed(NetworkConnectionToClient client, int value)
+        private void HandleOfferingConfirmed(NetworkConnectionToClient client, int value, bool sacrifice)
         {
-            gameState.Players.Where(x => x.ConnectionId == client.connectionId).First().CurrentOffer = value;
+            // Record the user's offering
+            var currentPlayer = gameState.Players.Where(x => x.ConnectionId == client.connectionId).First();
+            currentPlayer.CurrentOffer = value;
+            currentPlayer.CurrentSacrifice = sacrifice;
+
+            // Set the client's offering panel to wait
             offeringPanel.RpcHide(client);
 
 
             // If no players left with no offer made, process everything
             if (gameState.Players.Where(x => x.CurrentOffer == -1).Count() == 0)
             {
-                // Decrease everyone's resource amount
+                // Decrease everyone's resource amount, remove a worker if sacrificed
                 foreach (var player in gameState.Players)
                 {
                     player.Resources[gameState.ResourceRequirements[gameState.Turn - 1]] -= player.CurrentOffer;
+
+                    if (player.CurrentSacrifice)
+                    {
+                        player.Workers.RemoveAt(0);
+                    }
                 }
 
                 // Tell all clients to hide the offer panel

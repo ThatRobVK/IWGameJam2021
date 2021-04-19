@@ -14,11 +14,19 @@ namespace FDaaGF.UI
         [SerializeField]
         private GameObject winnerPanel;
         [SerializeField]
-        private Text winnerNameText;
+        private Text winnerUnnecessarySacrificeText;
+        [SerializeField]
+        private Text winnerNoSacrificeText;
+        [SerializeField]
+        private Text winnerNecessarySacrificeText;
         [SerializeField]
         private GameObject loserPanel;
         [SerializeField]
         private Text loserNameText;
+        [SerializeField]
+        private Text loserUnnecessarySacrificeText;
+        [SerializeField]
+        private Text loserNoSacriciceText;
 
 
         private CanvasGroup canvasGroup;
@@ -39,39 +47,66 @@ namespace FDaaGF.UI
         [Server]
         public void ShowPanels(List<Player> playersOrdered)
         {
+            var highestLosingOffering = 0;
+
             // Poke fun at the losers
             for (int i = 1; i < playersOrdered.Count; i++)
             {
-                Debug.LogFormat("Telling {0} to display the loser panel", playersOrdered[i].Name);
-                RpcShowLoserPanel(playersOrdered[i].Connection, playersOrdered[0].Name);
+                RpcShowLoserPanel(playersOrdered[i].Connection, playersOrdered[0].Name, playersOrdered[i].CurrentSacrifice);
+                highestLosingOffering = Math.Max(playersOrdered[i].CurrentOffer, highestLosingOffering);
             }
 
             // Show the winners
             // Congratulate the winner
-            RpcShowWinnerPanel(playersOrdered[0].Connection, playersOrdered[0].Name);
+            RpcShowWinnerPanel(playersOrdered[0].Connection, playersOrdered[0].CurrentOffer - highestLosingOffering, playersOrdered[0].CurrentSacrifice);
         }
 
         [TargetRpc]
-        public void RpcShowWinnerPanel(NetworkConnection target, string winnerName)
+        public void RpcShowWinnerPanel(NetworkConnection target, int offeringDifference, bool madeSacrifice)
         {
             ShowHideCanvasGroup(true);
 
             winnerPanel.SetActive(true);
             loserPanel.SetActive(false);
-            winnerNameText.text = winnerName;
+
+            if (offeringDifference > 5 && madeSacrifice)
+            {
+                // Unnecessary sacrifice
+                winnerUnnecessarySacrificeText.gameObject.SetActive(true);
+                winnerNecessarySacrificeText.gameObject.SetActive(false);
+                winnerNoSacrificeText.gameObject.SetActive(false);
+            }
+            else if (offeringDifference <= 5 && madeSacrifice)
+            {
+                // Sacrifice but necessary
+                winnerNecessarySacrificeText.gameObject.SetActive(true);
+                winnerUnnecessarySacrificeText.gameObject.SetActive(false);
+                winnerNoSacrificeText.gameObject.SetActive(false);
+            }
+            else
+            {
+                // No sacrifice
+                winnerNoSacrificeText.gameObject.SetActive(true);
+                winnerUnnecessarySacrificeText.gameObject.SetActive(false);
+                winnerNecessarySacrificeText.gameObject.SetActive(false);
+            }
 
             // Wait for a few seconds and then tell the game to move on
             if (isServer) StartCoroutine(CompleteOnTimer());
         }
 
         [TargetRpc]
-        public void RpcShowLoserPanel(NetworkConnection target, string winnerName)
+        public void RpcShowLoserPanel(NetworkConnection target, string winnerName, bool madeSacrifice)
         {
             ShowHideCanvasGroup(true);
 
             winnerPanel.SetActive(false);
             loserPanel.SetActive(true);
             loserNameText.text = winnerName;
+
+            // Show flavour text about sacrifice
+            loserUnnecessarySacrificeText.gameObject.SetActive(madeSacrifice);
+            loserNoSacriciceText.gameObject.SetActive(!madeSacrifice);
 
             // Wait for a few seconds and then tell the game to move on
             if (isServer) StartCoroutine(CompleteOnTimer());

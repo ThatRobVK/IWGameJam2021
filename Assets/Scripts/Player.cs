@@ -12,6 +12,7 @@ namespace FDaaGF
         public int ConnectionId = -1;
         public int CurrentOffer = -1;
         public int Position = 0;
+        public bool CurrentSacrifice = false;
         public NetworkConnectionToClient Connection;
 
         // Resource quantities owned by this player
@@ -19,6 +20,8 @@ namespace FDaaGF
 
         // Workers employed by the player
         public List<Worker> Workers = new List<Worker>();
+
+        public int TotalOffer => CurrentOffer + ((CurrentSacrifice) ? 5 : 0);
 
         public Player(NetworkConnectionToClient connection, string name)
         {

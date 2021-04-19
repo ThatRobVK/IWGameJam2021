@@ -8,7 +8,7 @@ namespace FDaaGF.UI
     public class OfferingPanel : NetworkBehaviour
     {
         // Event definitions
-        public event Action<NetworkConnectionToClient, int> OnOfferingConfirmed;
+        public event Action<NetworkConnectionToClient, int, bool> OnOfferingConfirmed;
 
 
         // Editor fields
@@ -19,7 +19,15 @@ namespace FDaaGF.UI
         [SerializeField]
         private InputField offeringInputField;
         [SerializeField]
+        private Toggle sacrificeToggle;
+        [SerializeField]
         private Text resourceText;
+        [SerializeField]
+        private Image resourceImage;
+        [SerializeField]
+        private Sprite[] resourceSprites;
+        [SerializeField]
+        private Text totalOfferingText;
 
         private int maxOffer = -1;
         private CanvasGroup canvasGroup;
@@ -31,6 +39,19 @@ namespace FDaaGF.UI
             ShowHideCanvasGroup(false);
         }
 
+        void Update()
+        {
+            var sacrificeAmount = (sacrificeToggle.isOn) ? 5 : 0;
+
+            int offeringValue = (!string.IsNullOrEmpty(offeringInputField.text)) ? int.Parse(offeringInputField.text) : 0;
+            if (offeringValue >= 0 && offeringValue <= maxOffer)
+            {
+                // Get the server to notify listeners
+                totalOfferingText.text = (offeringValue + sacrificeAmount).ToString();
+            }
+        }
+
+
         // Called when the Confirm button is clicked - runs on the client the event happens on
         public void HandleConfirmButtonClick()
         {
@@ -41,7 +62,7 @@ namespace FDaaGF.UI
                 if (offeringValue >= 0 && offeringValue <= maxOffer)
                 {
                     // Get the server to notify listeners
-                    CmdRaiseOfferingConfirmed(offeringValue);
+                    CmdRaiseOfferingConfirmed(offeringValue, sacrificeToggle.isOn);
                 }
                 else
                 {
@@ -79,14 +100,16 @@ namespace FDaaGF.UI
             InputPanel.SetActive(true);
             WaitPanel.SetActive(false);
             resourceText.text = resourceType.ToString();
+            resourceImage.sprite = resourceSprites[(int)resourceType];
+
             this.maxOffer = maxOffer;
         }
 
         // Notify listeners that an offering has been sent - called on the server, can be called by any client
         [Command(requiresAuthority = false)]
-        private void CmdRaiseOfferingConfirmed(int offeringValue, NetworkConnectionToClient sender = null)
+        private void CmdRaiseOfferingConfirmed(int offeringValue, bool sacrifice, NetworkConnectionToClient sender = null)
         {
-            OnOfferingConfirmed?.Invoke(sender, offeringValue);
+            OnOfferingConfirmed?.Invoke(sender, offeringValue, sacrifice);
         }
 
         private void ShowHideCanvasGroup(bool show)

@@ -30,7 +30,7 @@ namespace FDaaGF.TurnCommands
             Completed = false;
 
             // Sort the players so the first one is the winner
-            var playersOrdered = currentGameState.Players.OrderByDescending(x => x.CurrentOffer).ToList();
+            var playersOrdered = currentGameState.Players.OrderByDescending(x => x.TotalOffer).ToList();
 
             // Increase the first player's position
             playersOrdered[0].Position++;
