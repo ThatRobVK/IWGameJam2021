@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 using Mirror;
@@ -45,20 +46,24 @@ namespace FDaaGF.UI
         }
 
         [Server]
-        public void ShowPanels(List<Player> playersOrdered)
+        public void ShowPanels(List<Player> winners, List<Player> losers)
         {
             var highestLosingOffering = 0;
+            var winnerNames = string.Join(" and ", winners.Select(x => x.Name).ToArray());
 
             // Poke fun at the losers
-            for (int i = 1; i < playersOrdered.Count; i++)
+            foreach (var loser in losers)
             {
-                RpcShowLoserPanel(playersOrdered[i].Connection, playersOrdered[0].Name, playersOrdered[i].CurrentSacrifice);
-                highestLosingOffering = Math.Max(playersOrdered[i].CurrentOffer, highestLosingOffering);
+                RpcShowLoserPanel(loser.Connection, winnerNames, loser.CurrentSacrifice);
+                highestLosingOffering = Math.Max(loser.CurrentOffer, highestLosingOffering);
             }
 
             // Show the winners
             // Congratulate the winner
-            RpcShowWinnerPanel(playersOrdered[0].Connection, playersOrdered[0].CurrentOffer - highestLosingOffering, playersOrdered[0].CurrentSacrifice);
+            foreach (var winner in winners)
+            {
+                RpcShowWinnerPanel(winner.Connection, winner.CurrentOffer - highestLosingOffering, winner.CurrentSacrifice);
+            }
         }
 
         [TargetRpc]

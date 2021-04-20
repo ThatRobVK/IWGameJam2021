@@ -1,4 +1,5 @@
 using System.Linq;
+using System.Collections.Generic;
 using FDaaGF.UI;
 
 namespace FDaaGF.TurnCommands
@@ -29,13 +30,18 @@ namespace FDaaGF.TurnCommands
         {
             Completed = false;
 
-            // Sort the players so the first one is the winner
-            var playersOrdered = currentGameState.Players.OrderByDescending(x => x.TotalOffer).ToList();
+            var highestBid = currentGameState.Players.Max(x => x.TotalOffer);
+            // Highest bidders with sacrifice win
+            var winners = currentGameState.Players.Where(x => x.TotalOffer == highestBid && x.CurrentSacrifice).ToList();
+            // If no winners, then all highest bidders
+            if (winners.Count == 0) winners = currentGameState.Players.Where(x => x.TotalOffer == highestBid).ToList();
+            // Losers are not winners
+            var losers = currentGameState.Players.Where(x => !winners.Contains(x)).ToList();
 
-            // Increase the first player's position
-            playersOrdered[0].Position++;
+            // Increase the winners' position
+            winners.ForEach(x => x.Position++);
 
-            winnerPanel.ShowPanels(playersOrdered);
+            winnerPanel.ShowPanels(winners, losers);
         }
     }
 }
