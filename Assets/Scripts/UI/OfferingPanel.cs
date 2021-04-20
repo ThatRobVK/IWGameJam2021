@@ -32,6 +32,8 @@ namespace FDaaGF.UI
         private string noSacrificeText = "Can't sacrifice, not enough workers!";
         [SerializeField]
         private string canSacrificeText = "Sacrifice a poor, innocent worker";
+        [SerializeField]
+        private AudioSource sacrificeSound;
 
         private int maxOffer = -1;
         private CanvasGroup canvasGroup;
@@ -64,6 +66,12 @@ namespace FDaaGF.UI
             int offeringValue = (!string.IsNullOrEmpty(offeringInputField.text)) ? int.Parse(offeringInputField.text) : 0;
             if (offeringValue >= 0 && offeringValue <= maxOffer)
             {
+                if (sacrificeToggle.isOn)
+                {
+                    // Play sacrifice sound effect
+                    sacrificeSound?.Play();
+                }
+
                 // Get the server to notify listeners
                 CmdRaiseOfferingConfirmed(offeringValue, sacrificeToggle.isOn);
             }
