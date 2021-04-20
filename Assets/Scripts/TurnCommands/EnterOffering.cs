@@ -39,7 +39,8 @@ namespace FDaaGF
                 player.CurrentOffer = -1;
 
                 var resourceAmount = player.Resources[currentResource];
-                offeringPanel.RpcShow(player.Connection, currentResource, resourceAmount);
+                var canSacrifice = player.Workers.Count > 1;
+                offeringPanel.RpcShow(player.Connection, currentResource, resourceAmount, canSacrifice);
             }
         }
 

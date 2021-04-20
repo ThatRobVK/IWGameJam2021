@@ -28,6 +28,10 @@ namespace FDaaGF.UI
         private Sprite[] resourceSprites;
         [SerializeField]
         private Text totalOfferingText;
+        [SerializeField]
+        private string noSacrificeText = "Can't sacrifice, not enough workers!";
+        [SerializeField]
+        private string canSacrificeText = "Sacrifice a poor, innocent worker";
 
         private int maxOffer = -1;
         private CanvasGroup canvasGroup;
@@ -56,18 +60,16 @@ namespace FDaaGF.UI
         public void HandleConfirmButtonClick()
         {
             // Parse the entered value, if valid int raise event to let watchers know of input
-            int offeringValue = 0;
-            if (int.TryParse(offeringInputField.text, out offeringValue))
+
+            int offeringValue = (!string.IsNullOrEmpty(offeringInputField.text)) ? int.Parse(offeringInputField.text) : 0;
+            if (offeringValue >= 0 && offeringValue <= maxOffer)
             {
-                if (offeringValue >= 0 && offeringValue <= maxOffer)
-                {
-                    // Get the server to notify listeners
-                    CmdRaiseOfferingConfirmed(offeringValue, sacrificeToggle.isOn);
-                }
-                else
-                {
-                    Debug.Log("Invalid offer");
-                }
+                // Get the server to notify listeners
+                CmdRaiseOfferingConfirmed(offeringValue, sacrificeToggle.isOn);
+            }
+            else
+            {
+                Debug.Log("Invalid offer");
             }
         }
 
@@ -93,7 +95,7 @@ namespace FDaaGF.UI
 
         // Shows the panel - called on all clients
         [TargetRpc]
-        public void RpcShow(NetworkConnection target, ResourceType resourceType, int maxOffer)
+        public void RpcShow(NetworkConnection target, ResourceType resourceType, int maxOffer, bool canSacrifice)
         {
             ShowHideCanvasGroup(true);
 
@@ -101,6 +103,11 @@ namespace FDaaGF.UI
             WaitPanel.SetActive(false);
             resourceText.text = resourceType.ToString();
             resourceImage.sprite = resourceSprites[(int)resourceType];
+
+            // Set sacrifice toggle
+            sacrificeToggle.isOn = false;
+            sacrificeToggle.interactable = canSacrifice;
+            sacrificeToggle.GetComponentInChildren<Text>().text = (canSacrifice) ? canSacrificeText : noSacrificeText;
 
             this.maxOffer = maxOffer;
         }
