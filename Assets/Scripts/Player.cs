@@ -12,6 +12,7 @@ namespace FDaaGF
         public int ConnectionId = -1;
         public int CurrentOffer = -1;
         public int Position = 0;
+        public int TotalSacrifices = 0;
         public bool CurrentSacrifice = false;
         public NetworkConnectionToClient Connection;
 

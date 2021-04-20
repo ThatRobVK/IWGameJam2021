@@ -51,6 +51,7 @@ namespace FDaaGF
             var currentPlayer = gameState.Players.Where(x => x.ConnectionId == client.connectionId).First();
             currentPlayer.CurrentOffer = value;
             currentPlayer.CurrentSacrifice = sacrifice;
+            if (sacrifice) currentPlayer.TotalSacrifices++;
 
             // Set the client's offering panel to wait
             offeringPanel.RpcHide(client);

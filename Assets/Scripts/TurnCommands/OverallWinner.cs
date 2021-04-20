@@ -19,11 +19,17 @@ namespace FDaaGF.TurnCommands
         {
             Completed = false;
 
-            var winner = currentGameState.Players.Where(x => x.Position == currentGameState.WinPosition).FirstOrDefault();
-            if (winner != null)
+            var winners = currentGameState.Players.Where(x => x.Position == currentGameState.WinPosition).ToList();
+            if (winners.Count > 0)
             {
-                // Someone has won, show the panel and don't flag completed
+                // Multiple winners, the one with the most sacrifices wins
+                var winner = winners.OrderByDescending(x => x.TotalSacrifices).First();
                 gameWinnerPanel.RpcShow(winner.Name);
+            }
+            else if (winners.Count == 1)
+            {
+                // Single winner
+                gameWinnerPanel.RpcShow(winners[0].Name);
             }
             else
             {
