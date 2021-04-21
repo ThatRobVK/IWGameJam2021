@@ -37,7 +37,7 @@ namespace FDaaGF
             foreach (var player in gameState.Players)
             {
                 player.WorkerPlacementUpdated = false;
-                workerPlacementPanel.RpcShow(player.Connection, player.Workers);
+                workerPlacementPanel.RpcShow(player.Connection, player.Workers, player.TotalSacrifices < 3);
             }
         }
 

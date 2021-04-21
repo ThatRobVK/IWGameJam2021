@@ -24,6 +24,8 @@ namespace FDaaGF.UI
         private Text recruitingText;
         [SerializeField]
         private Text freeWorkersText;
+        [SerializeField]
+        private Text tooManySacrificesText;
 
 
         private int maxRecruiters = 1;
@@ -65,7 +67,7 @@ namespace FDaaGF.UI
 
         // Shows the panel - called on all clients
         [TargetRpc]
-        public void RpcShow(NetworkConnection target, List<Worker> playerWorkers)
+        public void RpcShow(NetworkConnection target, List<Worker> playerWorkers, bool canRecruit)
         {
             ShowHideCanvasGroup(true);
 
@@ -74,6 +76,14 @@ namespace FDaaGF.UI
 
             workers = playerWorkers;
             availableWorkerCount = playerWorkers.Count();
+
+            if (!canRecruit)
+            {
+                // Player can no longer recruit, so remove all recruiters
+                playerWorkers.ForEach(x => x.Recruiting = false);
+                maxRecruiters = 0;
+                tooManySacrificesText.gameObject.SetActive(true);
+            }
 
             ShowWorkerCounts();
         }
