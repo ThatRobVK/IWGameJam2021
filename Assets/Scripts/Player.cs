@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Mirror;
+using UnityEngine;
 
 namespace FDaaGF
 {
@@ -14,6 +15,7 @@ namespace FDaaGF
         public int Position = 0;
         public int TotalSacrifices = 0;
         public bool CurrentSacrifice = false;
+        public int Image;
         public NetworkConnectionToClient Connection;
 
         // Resource quantities owned by this player
@@ -23,6 +25,22 @@ namespace FDaaGF
         public List<Worker> Workers = new List<Worker>();
 
         public int TotalOffer => CurrentOffer + ((CurrentSacrifice) ? 5 : 0);
+
+        public bool IsReady
+        {
+            get
+            {
+                var roomPlayer = Connection.identity.GetComponent<NetworkRoomPlayer>();
+                if (roomPlayer != null)
+                {
+                    return roomPlayer.readyToBegin;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+        }
 
         public Player(NetworkConnectionToClient connection, string name)
         {
