@@ -5,6 +5,12 @@ using Mirror;
 
 public class QuitButton : NetworkBehaviour
 {
+    void Update()
+    {
+        // Reset position - it changes on clients for some weird reason
+        GetComponent<RectTransform>().anchoredPosition = new Vector2(-42.3999f, 25.09998f);
+    }
+
     public void HandleButtonClick()
     {
         if (isServer)

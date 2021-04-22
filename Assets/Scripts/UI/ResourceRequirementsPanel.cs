@@ -50,5 +50,8 @@ public class ResourceRequirementsPanel : NetworkBehaviour
         thisTurnText.text = currentTurn.ToString();
         thisTurnImage.texture = resourceTextures[currentResource];
         nextTurnImage.texture = resourceTextures[nextResource];
+
+        // Reset position - it changes on clients for some weird reason
+        GetComponent<RectTransform>().anchoredPosition = new Vector2(-166.7998f, -100f);
     }
 }
