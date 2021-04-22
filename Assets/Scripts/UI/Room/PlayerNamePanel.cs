@@ -13,8 +13,6 @@ namespace FDaaGF.UI.Room
         [SerializeField]
         private InputField nameInputField;
         [SerializeField]
-        private Sprite[] playerImages;
-        [SerializeField]
         private Image playerImage;
         [SerializeField]
         private AudioSource buttonClickSound;
@@ -29,7 +27,7 @@ namespace FDaaGF.UI.Room
 
         void Update()
         {
-            playerImage.sprite = playerImages[imageIndex];
+            playerImage.sprite = gameState.PlayerImages[imageIndex];
         }
 
         void Start()
@@ -41,14 +39,14 @@ namespace FDaaGF.UI.Room
         {
             // Increase, loop to 0 if out of bounds
             imageIndex++;
-            if (imageIndex > playerImages.Length - 1) imageIndex = 0;
+            if (imageIndex > gameState.PlayerImages.Length - 1) imageIndex = 0;
         }
 
         public void HandleImageButtonDownClick()
         {
             // Decrease, loop to last image if out of bounds
             imageIndex--;
-            if (imageIndex < 0) imageIndex = playerImages.Length - 1;
+            if (imageIndex < 0) imageIndex = gameState.PlayerImages.Length - 1;
         }
 
 

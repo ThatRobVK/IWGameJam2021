@@ -23,11 +23,15 @@ namespace FDaaGF.UI
         [SerializeField]
         private GameObject loserPanel;
         [SerializeField]
+        private Image loserImage;
+        [SerializeField]
         private Text loserNameText;
         [SerializeField]
         private Text loserUnnecessarySacrificeText;
         [SerializeField]
         private Text loserNoSacriciceText;
+        [SerializeField]
+        private GameState gameState;
 
 
         private CanvasGroup canvasGroup;
@@ -50,11 +54,12 @@ namespace FDaaGF.UI
         {
             var highestLosingOffering = 0;
             var winnerNames = string.Join(" and ", winners.Select(x => x.Name).ToArray());
+            var winnerImage = winners[0].Image;
 
             // Poke fun at the losers
             foreach (var loser in losers)
             {
-                RpcShowLoserPanel(loser.Connection, winnerNames, loser.CurrentSacrifice);
+                RpcShowLoserPanel(loser.Connection, winnerNames, winnerImage, loser.CurrentSacrifice);
                 highestLosingOffering = Math.Max(loser.CurrentOffer, highestLosingOffering);
             }
 
@@ -101,13 +106,14 @@ namespace FDaaGF.UI
         }
 
         [TargetRpc]
-        public void RpcShowLoserPanel(NetworkConnection target, string winnerName, bool madeSacrifice)
+        public void RpcShowLoserPanel(NetworkConnection target, string winnerName, int winnerImage, bool madeSacrifice)
         {
             ShowHideCanvasGroup(true);
 
             winnerPanel.SetActive(false);
             loserPanel.SetActive(true);
             loserNameText.text = winnerName;
+            loserImage.sprite = gameState.PlayerImages[winnerImage];
 
             // Show flavour text about sacrifice
             loserUnnecessarySacrificeText.gameObject.SetActive(madeSacrifice);

@@ -19,5 +19,7 @@ namespace FDaaGF
 
         // All players in the current game
         public SyncList<Player> Players = new SyncList<Player>();
+
+        public Sprite[] PlayerImages;
     }
 }

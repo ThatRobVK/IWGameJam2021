@@ -12,6 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe61953c7294ad441b5e894fc4b06dbc, type: 3}
   m_Name: GameState
   m_EditorClassIdentifier: 
+  WinPosition: 6
   Turn: 0
-  ResourceRequirements: 
-  Players: []
+  PlayerImages:
+  - {fileID: 21300000, guid: 40436beb8cf8aee86aad006ea5fb2308, type: 3}
+  - {fileID: 21300000, guid: c4dab2f8ea7e5655e84d655b1156b80a, type: 3}
+  - {fileID: 21300000, guid: 18df8127bfc3a38069b6bcb03542390f, type: 3}
+  - {fileID: 21300000, guid: 53b32d5409a06dc9787531cca634bc5a, type: 3}
+  - {fileID: 21300000, guid: 57fc4117d49cabd5296074b0384c864f, type: 3}
+  - {fileID: 21300000, guid: c12d0d32a878ba8ab977beb99b4f5192, type: 3}

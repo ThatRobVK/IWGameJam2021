@@ -2965,6 +2965,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Worker Placement Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 4463246416207160696, guid: 8d98c7bc9dec14cf6aa84e542d5d3afa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4463246416207160701, guid: 8d98c7bc9dec14cf6aa84e542d5d3afa,
         type: 3}
       propertyPath: sceneId
@@ -3101,6 +3106,17 @@ PrefabInstance:
       propertyPath: sceneId
       value: 2696487768
       objectReference: {fileID: 0}
+    - target: {fileID: 4491754247258249238, guid: 1812e27935fb729f3a9e1547ca63ac8d,
+        type: 3}
+      propertyPath: gameState
+      value: 
+      objectReference: {fileID: 11400000, guid: 966d4a0660673f71e8adf71da7c160d6,
+        type: 2}
+    - target: {fileID: 4491754247258249238, guid: 1812e27935fb729f3a9e1547ca63ac8d,
+        type: 3}
+      propertyPath: loserImage
+      value: 
+      objectReference: {fileID: 4491754248420063056}
     - target: {fileID: 4491754247258249241, guid: 1812e27935fb729f3a9e1547ca63ac8d,
         type: 3}
       propertyPath: m_Pivot.x
@@ -3144,7 +3160,7 @@ PrefabInstance:
     - target: {fileID: 4491754247258249241, guid: 1812e27935fb729f3a9e1547ca63ac8d,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 228.9919
+      value: 274.18457
       objectReference: {fileID: 0}
     - target: {fileID: 4491754247258249241, guid: 1812e27935fb729f3a9e1547ca63ac8d,
         type: 3}
@@ -3189,7 +3205,7 @@ PrefabInstance:
     - target: {fileID: 4491754247258249241, guid: 1812e27935fb729f3a9e1547ca63ac8d,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -22.6
       objectReference: {fileID: 0}
     - target: {fileID: 4491754247258249241, guid: 1812e27935fb729f3a9e1547ca63ac8d,
         type: 3}
@@ -3216,8 +3232,32 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4491754248001113933, guid: 1812e27935fb729f3a9e1547ca63ac8d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491754249070098853, guid: 1812e27935fb729f3a9e1547ca63ac8d,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Too bad!
+
+        The winner is'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1812e27935fb729f3a9e1547ca63ac8d, type: 3}
+--- !u!114 &4491754248420063056 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3658880724618730897, guid: 1812e27935fb729f3a9e1547ca63ac8d,
+    type: 3}
+  m_PrefabInstance: {fileID: 4491754248420063055}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5976780262760718616
 PrefabInstance:
   m_ObjectHideFlags: 0

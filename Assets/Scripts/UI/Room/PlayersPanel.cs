@@ -13,8 +13,6 @@ namespace FDaaGF.UI.Room
         private GameState gameState;
         [SerializeField]
         private PlayerPanel playerPanelPrefab;
-        [SerializeField]
-        private Sprite[] playerImages;
 
         private List<PlayerPanel> playerPanels = new List<PlayerPanel>();
 
@@ -34,7 +32,7 @@ namespace FDaaGF.UI.Room
                 for (int i = 0; i < gameState.Players.Count; i++)
                 {
                     if (playerPanels[i].Name != gameState.Players[i].Name ||
-                        playerPanels[i].Image != playerImages[gameState.Players[i].Image])
+                        playerPanels[i].Image != gameState.PlayerImages[gameState.Players[i].Image])
                     {
                         // Details have changed
                         isDirty = true;
@@ -60,7 +58,7 @@ namespace FDaaGF.UI.Room
                     playerPanels.Add(newPanel);
                 }
 
-                playerPanels[i].SetPlayerDetails(playerNames[i], playerImages[images[i]]);
+                playerPanels[i].SetPlayerDetails(playerNames[i], gameState.PlayerImages[images[i]]);
             }
         }
     }
