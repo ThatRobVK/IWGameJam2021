@@ -9,6 +9,7 @@ namespace FDaaGF.TurnCommands
         public bool Completed { get; private set; }
 
         private GameWinnerPanel gameWinnerPanel;
+        private GameState gameState;
 
         public OverallWinner(GameWinnerPanel winnerPanel)
         {
@@ -22,20 +23,72 @@ namespace FDaaGF.TurnCommands
             var winners = currentGameState.Players.Where(x => x.Position == currentGameState.WinPosition).ToList();
             if (winners.Count > 0)
             {
+                gameState = currentGameState;
                 // Multiple winners, the one with the most sacrifices wins
                 var winner = winners.OrderByDescending(x => x.TotalSacrifices).First();
-                gameWinnerPanel.RpcShow(winner.Name);
-            }
-            else if (winners.Count == 1)
-            {
-                // Single winner
-                gameWinnerPanel.RpcShow(winners[0].Name);
+                gameWinnerPanel.RpcShow(winner.Image, winner.Name, SacrificesImage(), SacrificesText(), GoldImage(), GoldText(), GrainImage(), GrainText(), MeatImage(), MeatText(), FishImage(), FishText());
             }
             else
             {
                 // No winner, complete this command
                 Completed = true;
             }
+        }
+
+        private int SacrificesImage()
+        {
+            var player = gameState.Players.OrderByDescending(x => x.TotalSacrifices).First();
+            return (player.TotalSacrifices > 0) ? player.Image : -1;
+        }
+
+        private string SacrificesText()
+        {
+            var player = gameState.Players.OrderByDescending(x => x.TotalSacrifices).First();
+            return string.Format("<b>{0}</b> sacrificed <b>{1}</b> people. They became known as a ruthless Chief who thought nothing of sacrificing their own to reach their goals. Soon, their village Priest turned on them and <b>{0}</b> became the next sacrifice to be made.", player.Name, player.TotalSacrifices);
+        }
+
+        private int GrainImage()
+        {
+            return gameState.Players.OrderByDescending(x => x.Resources[ResourceType.Wheat]).First().Image;
+        }
+
+        private string GrainText()
+        {
+            var player = gameState.Players.OrderByDescending(x => x.Resources[ResourceType.Wheat]).First();
+            return string.Format("<b>{0}</b> gathered a hoard of grain, feeding their village for years to come.", player.Name);
+        }
+
+        private int GoldImage()
+        {
+            return gameState.Players.OrderByDescending(x => x.Resources[ResourceType.Gold]).First().Image;
+        }
+
+        private string GoldText()
+        {
+            var player = gameState.Players.OrderByDescending(x => x.Resources[ResourceType.Gold]).First();
+            return string.Format("<b>{0}</b> managed to gather the most gold of all the villages. Unfortunately, gold didn't hold much value in Mesoamerica. The Spaniards, however, liked gold very much, and they soon relieve the village of their gold. And their heads.", player.Name);
+        }
+
+        private int MeatImage()
+        {
+            return gameState.Players.OrderByDescending(x => x.Resources[ResourceType.Meat]).First().Image;
+        }
+
+        private string MeatText()
+        {
+            var player = gameState.Players.OrderByDescending(x => x.Resources[ResourceType.Meat]).First();
+            return string.Format("<b>{0}</b> built a meat empire. Many cows and pigs regretted coming to their village, but the villagers enjoyed steak, sausages, and many other delicious treats. The constipation though...", player.Name);
+        }
+
+        private int FishImage()
+        {
+            return gameState.Players.OrderByDescending(x => x.Resources[ResourceType.Fish]).First().Image;
+        }
+
+        private string FishText()
+        {
+            var player = gameState.Players.OrderByDescending(x => x.Resources[ResourceType.Fish]).First();
+            return string.Format("<b>{0}</b> fed their villagers mostly fish, which is arguably a healthier diet than meat. The smell however, is a different story.", player.Name);
         }
     }
 }
