@@ -35,13 +35,28 @@ namespace FDaaGF
 
             gameState.Turn = 1;
 
-            var maxRounds = gameState.Players.Count * (gameState.WinPosition - 1) + 1;
+            var maxRounds = gameState.Players.Count * gameState.WinPosition;
+            Debug.Log(maxRounds);
 
             // Add resource requirements at random
+            int lastNumber = -1;
             for (int i = 0; i < maxRounds; i++)
             {
-                gameState.ResourceRequirements.Add((ResourceType)Random.Range(0, 3));
+                // Pick a random number, remove duplicates
+                var newNumber = Random.Range(0, 4);
+                if (newNumber == lastNumber) newNumber++;
+                if (newNumber > 3) newNumber = 0;
+
+                gameState.ResourceRequirements.Add((ResourceType)newNumber);
+                lastNumber = newNumber;
             }
+
+            var requirements = "Resource Requirements:\n";
+            foreach (var requirement in gameState.ResourceRequirements)
+            {
+                requirements = string.Format("{0}{1}\n", requirements, requirement.ToString());
+            }
+            Debug.Log(requirements);
 
             // Set up game loop commands
             TurnCommands.Add(new WorkerPlacement(workerPlacementPanel));
