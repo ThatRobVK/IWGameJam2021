@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using System.Linq;
 using Mirror;
 using UnityEngine;
@@ -14,22 +16,22 @@ namespace FDaaGF.UI
         [SerializeField]
         private ResourcesPanel[] resourcesPanels;
         [SerializeField]
-        private Image playerImage;
+        private Image[] playerImage;
         [SerializeField]
-        private Image[] opponentImages;
+        private Image[] opponent0Images;
+        [SerializeField]
+        private Image[] opponent1Images;
+        [SerializeField]
+        private Image[] opponent2Images;
+        [SerializeField]
+        private GameState gameState;
 
-
-        private Vector2[] playerPositionVectors = new Vector2[] { new Vector2(0, -120), new Vector2(0, -100), new Vector2(0, -80), new Vector2(0, -60), new Vector2(0, -40), new Vector2(0, -20), new Vector2(0, 0) };
-        private Vector2[][] opponentPositionVectors = new Vector2[][] {
-             new Vector2[] { new Vector2(0, 120), new Vector2(0, 100), new Vector2(0, 80), new Vector2(0, 60), new Vector2(0, 40), new Vector2(0, 20), new Vector2(0,0) },
-             new Vector2[] { new Vector2(-120, 0), new Vector2(-100, 0), new Vector2(-80, 0), new Vector2(-60, 0), new Vector2(-40, 0), new Vector2(-20, 0), new Vector2(0,0) },
-             new Vector2[] { new Vector2(120, 0), new Vector2(100, 0), new Vector2(80, 0), new Vector2(60, 0), new Vector2(40, 0), new Vector2(20, 0), new Vector2(0,0) }
-        };
 
 
 
         public void UpdateUI(GameState gameState)
         {
+
             foreach (var player in gameState.Players)
             {
                 // Set player and opponent names in UI
@@ -47,7 +49,10 @@ namespace FDaaGF.UI
 
                 // Set player positions
                 var opponentPositions = gameState.Players.Where(x => x.ConnectionId != player.ConnectionId).Select(x => x.Position).ToArray();
-                RpcSetPositions(player.Connection, player.Position, opponentPositions);
+                List<int> images = new List<int>();
+                images.Add(gameState.Players.Where(x => x.ConnectionId == player.ConnectionId).First().Image);
+                images.AddRange(gameState.Players.Where(x => x.ConnectionId != player.ConnectionId).Select(x => x.Image).ToArray());
+                RpcSetPositions(player.Connection, player.Position, opponentPositions, images.ToArray());
             }
         }
 
@@ -87,19 +92,22 @@ namespace FDaaGF.UI
         }
 
         [TargetRpc]
-        private void RpcSetPositions(NetworkConnection target, int playerPosition, int[] opponentPositions)
+        private void RpcSetPositions(NetworkConnection target, int playerPosition, int[] opponentPositions, int[] images)
         {
-            playerImage.GetComponent<RectTransform>().anchoredPosition = playerPositionVectors[playerPosition];
+            ShowPosition(playerPosition, playerImage, images[0]);
+            ShowPosition((opponentPositions.Length >= 1) ? opponentPositions[0] : -1, opponent0Images, (images.Length >= 2) ? images[1] : -1);
+            ShowPosition((opponentPositions.Length >= 2) ? opponentPositions[1] : -1, opponent1Images, (images.Length >= 3) ? images[2] : -1);
+            ShowPosition((opponentPositions.Length >= 3) ? opponentPositions[2] : -1, opponent2Images, (images.Length >= 4) ? images[3] : -1);
+        }
 
-            for (int i = 0; i < 3; i++)
+        private void ShowPosition(int position, Image[] images, int imageIndex)
+        {
+            for (int i = 0; i < images.Length; i++)
             {
-                if (i < opponentPositions.Length)
+                images[i].gameObject.SetActive(i == position);
+                if (imageIndex > -1 && images[i].gameObject.activeInHierarchy)
                 {
-                    opponentImages[i].GetComponent<RectTransform>().anchoredPosition = opponentPositionVectors[i][opponentPositions[i]];
-                }
-                else
-                {
-                    opponentImages[i].gameObject.SetActive(false);
+                    images[i].sprite = gameState.PlayerImages[imageIndex];
                 }
             }
         }
