@@ -21,6 +21,8 @@ namespace FDaaGF
 
         // Editor fields
         [SerializeField]
+        private VideoPanel videoPanel;
+        [SerializeField]
         private IntroPanel introPanel;
         [SerializeField]
         private OfferingPanel offeringPanel;
@@ -58,6 +60,7 @@ namespace FDaaGF
 
 
             // Set up the game start commands
+            StartGameCommands.Add(new Video(videoPanel));
             StartGameCommands.Add(new Intro(introPanel));
 
             // Set up game loop commands
