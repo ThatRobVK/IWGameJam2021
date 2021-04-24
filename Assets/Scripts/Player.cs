@@ -26,21 +26,7 @@ namespace FDaaGF
 
         public int TotalOffer => CurrentOffer + ((CurrentSacrifice) ? 5 : 0);
 
-        public bool IsReady
-        {
-            get
-            {
-                var roomPlayer = Connection.identity.GetComponent<NetworkRoomPlayer>();
-                if (roomPlayer != null)
-                {
-                    return roomPlayer.readyToBegin;
-                }
-                else
-                {
-                    return false;
-                }
-            }
-        }
+        public bool IsReady { get; set; }
 
         public Player(NetworkConnectionToClient connection, string name)
         {

@@ -63,7 +63,8 @@ namespace FDaaGF.UI.Room
                 NetworkClient.connection.identity.GetComponent<NetworkRoomPlayer>().CmdChangeReadyState(true);
             }
 
-            gameObject.SetActive(false);
+            GetComponent<CanvasGroup>().alpha = 0;
+            GetComponent<CanvasGroup>().interactable = false;
         }
 
         [Command(requiresAuthority = false)]
@@ -72,6 +73,7 @@ namespace FDaaGF.UI.Room
             // Set the name on the object where the connection id matches
             gameState.Players.Where(x => x.ConnectionId == sender.connectionId).First().Name = name;
             gameState.Players.Where(x => x.ConnectionId == sender.connectionId).First().Image = image;
+            gameState.Players.Where(x => x.ConnectionId == sender.connectionId).First().IsReady = true;
         }
 
         [Command(requiresAuthority = false)]

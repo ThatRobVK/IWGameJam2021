@@ -16,7 +16,7 @@ namespace FDaaGF.UI.Room
         {
             if (isServer)
             {
-                if (gameState.Players.Count > 1 && gameState.Players.Where(x => !x.IsReady).Count() == 1)
+                if (gameState.Players.Count > 1 && gameState.Players.Where(x => !x.IsReady).Count() == 0)
                 {
                     GetComponent<CanvasGroup>().alpha = 1;
                 }

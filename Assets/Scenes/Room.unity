@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 26897727}
   - component: {fileID: 26897730}
   - component: {fileID: 26897729}
+  - component: {fileID: 26897731}
   m_Layer: 5
   m_Name: Player Details Panel
   m_TagString: Untagged
@@ -220,13 +221,6 @@ MonoBehaviour:
   syncInterval: 0.1
   gameState: {fileID: 11400000, guid: 966d4a0660673f71e8adf71da7c160d6, type: 2}
   nameInputField: {fileID: 971602317}
-  playerImages:
-  - {fileID: 21300000, guid: 40436beb8cf8aee86aad006ea5fb2308, type: 3}
-  - {fileID: 21300000, guid: c4dab2f8ea7e5655e84d655b1156b80a, type: 3}
-  - {fileID: 21300000, guid: 18df8127bfc3a38069b6bcb03542390f, type: 3}
-  - {fileID: 21300000, guid: 53b32d5409a06dc9787531cca634bc5a, type: 3}
-  - {fileID: 21300000, guid: 57fc4117d49cabd5296074b0384c864f, type: 3}
-  - {fileID: 21300000, guid: c12d0d32a878ba8ab977beb99b4f5192, type: 3}
   playerImage: {fileID: 1490560189}
   buttonClickSound: {fileID: 2069606891}
 --- !u!114 &26897730
@@ -246,6 +240,18 @@ MonoBehaviour:
   visible: 2
   m_AssetId: 
   hasSpawned: 0
+--- !u!225 &26897731
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26897725}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &27562122
 GameObject:
   m_ObjectHideFlags: 0
@@ -2258,13 +2264,6 @@ MonoBehaviour:
   gameState: {fileID: 11400000, guid: 966d4a0660673f71e8adf71da7c160d6, type: 2}
   playerPanelPrefab: {fileID: 7597996307398823913, guid: aa42d358931e4e2938d665bf46017a45,
     type: 3}
-  playerImages:
-  - {fileID: 21300000, guid: 40436beb8cf8aee86aad006ea5fb2308, type: 3}
-  - {fileID: 21300000, guid: c4dab2f8ea7e5655e84d655b1156b80a, type: 3}
-  - {fileID: 21300000, guid: 18df8127bfc3a38069b6bcb03542390f, type: 3}
-  - {fileID: 21300000, guid: 53b32d5409a06dc9787531cca634bc5a, type: 3}
-  - {fileID: 21300000, guid: 57fc4117d49cabd5296074b0384c864f, type: 3}
-  - {fileID: 21300000, guid: c12d0d32a878ba8ab977beb99b4f5192, type: 3}
 --- !u!114 &1522972141
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -43,12 +43,12 @@ namespace FDaaGF.UI.Room
 
             if (isDirty)
             {
-                RpcUpdatePlayers(gameState.Players.Select(x => x.Name).ToArray(), gameState.Players.Select(x => x.Image).ToArray());
+                RpcUpdatePlayers(gameState.Players.Select(x => x.Name).ToArray(), gameState.Players.Select(x => x.Image).ToArray(), gameState.Players.Select(x => x.IsReady).ToArray());
             }
         }
 
         [ClientRpc]
-        private void RpcUpdatePlayers(string[] playerNames, int[] images)
+        private void RpcUpdatePlayers(string[] playerNames, int[] images, bool[] readyStates)
         {
             for (int i = 0; i < playerNames.Length; i++)
             {
@@ -58,7 +58,7 @@ namespace FDaaGF.UI.Room
                     playerPanels.Add(newPanel);
                 }
 
-                playerPanels[i].SetPlayerDetails(playerNames[i], gameState.PlayerImages[images[i]]);
+                playerPanels[i].SetPlayerDetails(playerNames[i], gameState.PlayerImages[images[i]], readyStates[i]);
             }
         }
     }
