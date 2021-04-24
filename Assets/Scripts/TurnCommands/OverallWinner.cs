@@ -26,13 +26,18 @@ namespace FDaaGF.TurnCommands
                 gameState = currentGameState;
                 // Multiple winners, the one with the most sacrifices wins
                 var winner = winners.OrderByDescending(x => x.TotalSacrifices).First();
-                gameWinnerPanel.RpcShow(winner.Image, winner.Name, SacrificesImage(), SacrificesText(), GoldImage(), GoldText(), GrainImage(), GrainText(), MeatImage(), MeatText(), FishImage(), FishText());
+                gameWinnerPanel.RpcShow(winner.Image, WinnerText(winner.Name), SacrificesImage(), SacrificesText(), GoldImage(), GoldText(), GrainImage(), GrainText(), MeatImage(), MeatText(), FishImage(), FishText());
             }
             else
             {
                 // No winner, complete this command
                 Completed = true;
             }
+        }
+
+        private string WinnerText(string winnerName)
+        {
+            return string.Format("<b>{0} is Victorious!</b> Their village Priest ascended the temple, and was blessed by the Gods. Their harvests were plentiful, and for some weird reason the Europeans never found their village.", winnerName);
         }
 
         private int SacrificesImage()
@@ -44,7 +49,7 @@ namespace FDaaGF.TurnCommands
         private string SacrificesText()
         {
             var player = gameState.Players.OrderByDescending(x => x.TotalSacrifices).First();
-            return string.Format("<b>{0}</b> sacrificed <b>{1}</b> people. They became known as a ruthless Chief who thought nothing of sacrificing their own to reach their goals. Soon, their village Priest turned on them and <b>{0}</b> became the next sacrifice to be made.", player.Name, player.TotalSacrifices);
+            return string.Format("The ruthless <b>{0}</b> sacrificed <b>{1}</b> people. Soon, their village Priest turned on them and <b>{0}</b> became the next sacrifice to be made.", player.Name, player.TotalSacrifices);
         }
 
         private int GrainImage()
@@ -66,7 +71,7 @@ namespace FDaaGF.TurnCommands
         private string GoldText()
         {
             var player = gameState.Players.OrderByDescending(x => x.Resources[ResourceType.Gold]).First();
-            return string.Format("<b>{0}</b> managed to gather the most gold of all the villages. Unfortunately, gold didn't hold much value in Mesoamerica. The Spaniards, however, liked gold very much, and they soon relieve the village of their gold. And their heads.", player.Name);
+            return string.Format("<b>{0}</b> had streets paved with gold. Unfortunately, the Spaniards loved gold, and they soon relieved the village of it. And their heads.", player.Name);
         }
 
         private int MeatImage()
@@ -77,7 +82,7 @@ namespace FDaaGF.TurnCommands
         private string MeatText()
         {
             var player = gameState.Players.OrderByDescending(x => x.Resources[ResourceType.Meat]).First();
-            return string.Format("<b>{0}</b> built a meat empire. Many cows and pigs regretted coming to their village, but the villagers enjoyed steak, sausages, and many other delicious treats. The constipation though...", player.Name);
+            return string.Format("<b>{0}</b> built a meat empire. Their villagers dined like kings. Many cows and pigs regretted coming to their village.", player.Name);
         }
 
         private int FishImage()
