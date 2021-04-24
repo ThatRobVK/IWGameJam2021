@@ -76,6 +76,12 @@ namespace FDaaGF
 
             if (currentStage == GameLoopStage.Start)
             {
+                if (currentStartCommand == -1)
+                {
+                    // On first update of game, update UI as you can see the default values behind the intro etc.
+                    gameUI.UpdateUI(gameState);
+                }
+
                 if (CommandCompleted(StartGameCommands, currentStartCommand))
                 {
                     // Move to next command
