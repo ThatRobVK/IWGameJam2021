@@ -53,7 +53,7 @@ namespace FDaaGF.UI
             if (sacrificesImage > -1)
             {
                 this.sacrificeImage.sprite = gameState.PlayerImages[sacrificesImage];
-                this.sacrificeText.text = winnerText;
+                this.sacrificeText.text = sacrificesText;
             }
             else
             {

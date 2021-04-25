@@ -1986,8 +1986,8 @@ Camera:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -6678,12 +6678,12 @@ PrefabInstance:
     - target: {fileID: 6551425751462835497, guid: d755300ce8c2bbd4ca33189ba8032522,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6551425751462835497, guid: d755300ce8c2bbd4ca33189ba8032522,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6551425751462835497, guid: d755300ce8c2bbd4ca33189ba8032522,
         type: 3}
@@ -6745,6 +6745,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6551425751462835499, guid: d755300ce8c2bbd4ca33189ba8032522,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6551425751462835499, guid: d755300ce8c2bbd4ca33189ba8032522,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6551425751462835499, guid: d755300ce8c2bbd4ca33189ba8032522,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6630934834322132826, guid: d755300ce8c2bbd4ca33189ba8032522,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -7014,6 +7029,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8949169660490092821, guid: d755300ce8c2bbd4ca33189ba8032522,
+        type: 3}
+      propertyPath: sceneId
+      value: 3452528467
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 98835867254456801, guid: d755300ce8c2bbd4ca33189ba8032522, type: 3}
